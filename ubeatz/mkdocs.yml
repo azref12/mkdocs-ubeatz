@@ -1,0 +1,7 @@
+site_name: UBEATZ
+site_url: https://ubeatz.indosoft.co.id
+nav:
+    - Home : "index.md"
+    - Login : 
+      - Sign Up : "login/sign_up.md"
+      - Sign In : "login/sign_in.md"
