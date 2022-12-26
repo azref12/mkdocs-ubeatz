@@ -1,10 +1,10 @@
+## History Point
+
 Endpoint
 ````
     history/point-coint/?id=2 [GET]
 ````
-History Point
-
-Result :
+## Result
 ````
 {
     "message": "successfully",

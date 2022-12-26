@@ -1,10 +1,10 @@
+## Location
+
 Endpoint
 ````
     url/master_voucher/location/ [GET]
 ````
-Location
-
-Result :
+## Result
 ````
 {
     "message": "successfully",

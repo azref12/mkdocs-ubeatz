@@ -1,8 +1,8 @@
+## Account Activation
 Endpoint
 ````
     url/user/activation/ [PUT]
 ````
-Account Activation 
 ```
 use the json file with the format below to account activation
 ```
@@ -13,7 +13,7 @@ use the json file with the format below to account activation
     "phone_number": "+6281234567892"
 }
 ````
-Result :
+## Result
 ````
 {
     "message": "successfully",

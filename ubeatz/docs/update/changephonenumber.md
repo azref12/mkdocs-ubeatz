@@ -1,8 +1,9 @@
+## Change Phone Number
+
 Endpoint
 ````
     url/user/changephonenumber/ [PUT]
-````
-Change Phone Number 
+```` 
 ```
 use the json file with the format below to change phone number
 ```
@@ -12,8 +13,7 @@ use the json file with the format below to change phone number
     "phone_number": "+6281234567892"
 }
 ````
-
-Result :
+## Result
 ````
 {
     "message": "successfully",

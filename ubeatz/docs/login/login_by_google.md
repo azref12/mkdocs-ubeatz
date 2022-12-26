@@ -1,10 +1,9 @@
+## Sign In by Google 
 Endpoint
 ````
     url/user/email/?email=anonim12@gmail.com [POST]
 ````
-Sign In by Google 
-
-Result :
+## Result 
 ````
 {
     "message": "successfully",
@@ -41,4 +40,3 @@ Result :
     }
 }
 ````
-

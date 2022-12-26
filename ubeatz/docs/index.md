@@ -1,2 +1,4 @@
-UBEATZ APP GUIDE
+## UBEATZ APP GUIDE
+## Introduction
+## About Us
 
