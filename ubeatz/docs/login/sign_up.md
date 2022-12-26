@@ -1,6 +1,6 @@
 Endpoint
 ````
-    - sign up => http://8.215.68.178/user/user
+    url/user/user [POST]
 ````
 Sign Up 
 ```
@@ -10,17 +10,16 @@ use the json file with the format below to sign up
 {
     "first_name": "-",
     "last_name": "-",
-    "username": "paijo4",
-    "email": "paijo4@yahoo.com",
-    "phone_number": "+6281248073410",
+    "username": "anonim12",
+    "email": "anonim12@gmail.com",
+    "phone_number": "+6281234567891",
     "password": "123123123",
     "password2": "123123123",
     "pin": "",
     "referral_code" : "zref"
 }
 ````
-
-result :
+Result :
 ```` 
 {
     "message": "successfully",
@@ -33,7 +32,7 @@ result :
                 "reward": 0,
                 "point": 0,
                 "coin": 0,
-                "phone_number": "+6281248073410",
+                "phone_number": "+6281234567891",
                 "pin": "JLN8WO",
                 "code": 3920,
                 "status": 0,

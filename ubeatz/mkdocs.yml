@@ -3,5 +3,13 @@ site_url: https://ubeatz.indosoft.co.id
 nav:
     - Home : "index.md"
     - Login : 
-      - Sign Up : "login/sign_up.md"
+      - Register : "login/sign_up.md"
       - Sign In : "login/sign_in.md"
+      - Sign In by Google : "login/login_by_google.md"
+    - Update :
+      - Change Password : "update/changepass.md"
+      - Change Phone Number : "update/changephonenumber.md"
+      - Activation Account : "update/activation.md" 
+    - Member :
+      - Point Coint : "member/pointcoint.md"
+      - Location : "member/location.md"
