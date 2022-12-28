@@ -4,9 +4,7 @@ Endpoint
 ````
     url/user/user [POST]
 ````
-```
 use the json file with the format below to sign up
-```
 ````
 {
     "first_name": "-",

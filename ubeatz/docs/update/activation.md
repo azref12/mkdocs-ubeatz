@@ -3,9 +3,7 @@ Endpoint
 ````
     url/user/activation/ [PUT]
 ````
-```
 use the json file with the format below to account activation
-```
 ````
 {
     "username": "anonim12",

@@ -3,9 +3,7 @@ Endpoint
 ````
     url/user/changepassword/ [PUT]
 ````
-```
 use the json file with the format below to change password
-```
 ````
 {
     "id": "2",

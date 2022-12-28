@@ -4,9 +4,7 @@ Endpoint
 ````
     url/user/changephonenumber/ [PUT]
 ```` 
-```
 use the json file with the format below to change phone number
-```
 ````
 {
     "username": "anonim12",
