@@ -1,5 +1,14 @@
 site_name: UBEATZ
 site_url: https://ubeatz.indosoft.co.id
+# theme : readthedocs
+theme : 
+    name : material
+    features : 
+      - search.suggest
+      - search.highlight
+      - content.tabs.link
+plugins: 
+    - search
 nav:
     - Home : "index.md"
     - Login : 
