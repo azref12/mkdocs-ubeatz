@@ -1,9 +1,12 @@
-## History Point
+## Point-Coin History 
 
 Endpoint
 ````
-    history/point-coint/?id=2 [GET]
+    url/history/point-coint/?id=2 [GET]
 ````
+
+Use ``id`` as ``params`` to get point-coin history
+
 ## Result
 ````
 {

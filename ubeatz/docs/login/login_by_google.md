@@ -1,8 +1,11 @@
 ## Sign In by Google 
 Endpoint
 ````
-    url/user/email/?email=anonim12@gmail.com [POST]
+    url/user/email/?email=anonim12@gmail.com [GET]
 ````
+
+Use ``email`` as ``params`` for sign in
+
 ## Result 
 ````
 {

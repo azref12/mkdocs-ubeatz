@@ -10,20 +10,31 @@ theme :
 plugins: 
     - search
     - glightbox
-markdown_extensions:
-    - attr_list
-    - md_in_html
+# markdown_extensions:
+#     - attr_list
+#     - md_in_html
 nav:
     - Home : "index.md"
+    - History :
+      - Coin  : "history/coinhistory.md"
+      - Point : "history/pointhistory.md"
+      - Point - Coin : "history/pointcoint.md"
     - Login : 
       - Register : "login/sign_up.md"
       - Sign In : "login/sign_in.md"
       - Sign In by Google : "login/login_by_google.md"
-    - Update :
-      - Change Password : "update/changepass.md"
-      - Change Phone Number : "update/changephonenumber.md"
-      - Activation Account : "update/activation.md" 
     - Member :
       - Add Point : "member/addpoint.md"
-      - Point Coint : "member/pointcoint.md"
-      - Location : "member/location.md"
+      - Feedback : "member/feedback.md"
+    - Update :
+      - Activation Account : "update/activation.md" 
+      - Change Password : "update/changepass.md"
+      - Change Phone Number : "update/changephonenumber.md"
+    - Version :
+      - Latest Version : "version/check_version.md"
+    - Voucher : 
+      - Master Voucher : 
+        - Location : "voucher/mastervoucher/location.md"
+      - Redeem Voucher : "voucher/redemvoucher.md"
+      - Voucher List : "voucher/voucher.md" 
+     
