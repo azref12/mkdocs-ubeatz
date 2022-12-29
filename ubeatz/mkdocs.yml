@@ -19,6 +19,7 @@ nav:
       - Coin  : "history/coinhistory.md"
       - Point : "history/pointhistory.md"
       - Point - Coin : "history/pointcoint.md"
+    - Location : "location.md"
     - Login : 
       - Register : "login/sign_up.md"
       - Sign In : "login/sign_in.md"
