@@ -2,7 +2,7 @@
 
 Endpoint
 ````
-    {{partner_service_url}}/security/v1/201904/oauth/token [POST]
+[POST] {{partner_service_url}}/security/v1/201904/oauth/token 
 ````
 before request OTP, you must login using ``username`` and ``password`` for the authorization process as ``basic authentication`` to get token. On postman select ``authorization`` next to ``params``, then select ``Basic Auth``.
 
@@ -12,7 +12,7 @@ Then, select body ``x-www-urlencoded`` and add grant_type as ``key``.
 
 ![partner_token](img/bodypartnertoken.png)
 
-and also, select ``test`` and add this
+and also, select ``test`` and add this code.
 
 ![partner_token](img/testpartnertoken.png)
 

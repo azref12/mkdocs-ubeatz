@@ -2,7 +2,7 @@
 
 Endpoint
 ````
-    url/history/point-coint/?id=2 [GET]
+[GET] url/history/point-coint/?id=2 
 ````
 
 Use ``id`` as ``params`` to get point-coin history

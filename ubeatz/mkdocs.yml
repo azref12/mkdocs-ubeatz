@@ -29,6 +29,9 @@ nav:
       - Partner Token : "getplus/partnertoken.md"
       - Request OTP : "getplus/requestotp.md"
       - Verify OTP : "getplus/verifyotp.md"
+      - Member : 
+        - Member Link : "getplus/member/memberlink.md"
+        - Member Unlink : "getplus/member/memberunlink.md"
     - History :
       - Coin  : "history/coinhistory.md"
       - Point : "history/pointhistory.md"

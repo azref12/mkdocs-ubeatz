@@ -2,7 +2,7 @@
 
 Endpoint
 ````
-    url/user/point-history-set/2 [GET]
+[GET] url/user/point-history-set/2 
 ````
 ## Result
 ````
