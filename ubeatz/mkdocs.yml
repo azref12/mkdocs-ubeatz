@@ -15,24 +15,28 @@ plugins:
 #     - md_in_html
 nav:
     - Home : "index.md"
+    - Version :
+      - Latest Version : "version/check_version.md"
+    - Login : 
+      - Register : "login/sign_up.md"
+      - Sign In : "login/sign_in.md"
+      - Sign In by Google : "login/login_by_google.md"
+    - Update :
+      - Activation Account : "update/activation.md" 
+      - Change Password : "update/changepass.md"
+      - Change Phone Number : "update/changephonenumber.md"
+    - GetPlus : 
+      - Partner Token : "getplus/partnertoken.md"
+      - Request OTP : "getplus/requestotp.md"
+      - Verify OTP : "getplus/verifyotp.md"
     - History :
       - Coin  : "history/coinhistory.md"
       - Point : "history/pointhistory.md"
       - Point - Coin : "history/pointcoint.md"
     - Location : "location.md"
-    - Login : 
-      - Register : "login/sign_up.md"
-      - Sign In : "login/sign_in.md"
-      - Sign In by Google : "login/login_by_google.md"
     - Member :
       - Add Point : "member/addpoint.md"
       - Feedback : "member/feedback.md"
-    - Update :
-      - Activation Account : "update/activation.md" 
-      - Change Password : "update/changepass.md"
-      - Change Phone Number : "update/changephonenumber.md"
-    - Version :
-      - Latest Version : "version/check_version.md"
     - Voucher : 
       - Master Voucher : 
         - Location : "voucher/mastervoucher/location.md"
