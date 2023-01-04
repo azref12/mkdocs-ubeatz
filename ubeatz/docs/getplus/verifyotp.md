@@ -7,10 +7,11 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&GetPlusID=6094450002009045855
 ````
-to verify OTP, use the token obtained earlier at login as ``basic authentication``. on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then copy and paste token.
+to verify OTP, use the token obtained earlier at login as ``basic authentication``. on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
 
 ![verify_getplus](img/verifyotp.png)
 
+## Test
 and also, select ``test`` then add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
@@ -26,8 +27,8 @@ after that, use this ``json`` file with the format below.
 	"OTP": "817270"
 }
 ````
-
-and for ``GET`` method, add this in ``params`` 
+## GET Method
+and for *GET*  method, add this in ``params`` 
 
 ![verify_test_getplus](img/getverifyotp.png)
 

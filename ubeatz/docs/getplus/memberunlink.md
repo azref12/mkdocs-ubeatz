@@ -7,10 +7,11 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&GetPlusID=6094450002009045855
 ````
-to access unlink member, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then copy and paste token.
+to access unlink member, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
 
 ![bearertoken_memberunlink](img/token-memberunlink.png)
 
+## Test
 and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testmemberunlink.png)
@@ -25,7 +26,8 @@ after that, use this ``json`` file with the format below to post unlink member.
     "Timestamp": "1662111091"
 }
 ````
-for ``GET`` method, add this in ``params``.
+## GET Method
+for *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getmemberunlink.png)
 
@@ -43,11 +45,6 @@ for ``GET`` method, add this in ``params``.
 }
 ````
 ## Error Condition
-Endpoint
-````
-[POST] {{partner_service_url}}/partner/v1/201904/members/unlink?access_token
-````
-## Error Result
 if send link twice.
 ````
 {

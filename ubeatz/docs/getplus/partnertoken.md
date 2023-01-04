@@ -12,6 +12,7 @@ Then, select body ``x-www-urlencoded`` and add grant_type as ``key``.
 
 ![partner_token](img/bodypartnertoken.png)
 
+## Test
 and also, select ``test`` and add this code.
 
 ![partner_token](img/testpartnertoken.png)

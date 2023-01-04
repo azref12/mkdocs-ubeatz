@@ -7,10 +7,11 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&GetPlusID=6094450002009045855&TransactionValue=1200
 ````
-to access point redeem, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then select ``{{partner_access_token}}``.
+to access point redeem, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then select ``{{partner_access_token}}`` or you can use contains the token obtained from the previous ``partner_token`` response.
 
 ![redeem_point](img/tokenredeempoint.png)
 
+## Test
 and also, select ``test`` and add this code.
 
 ![testredeempoint](img/testredeempoint.png)
@@ -27,7 +28,8 @@ after that, use this ``json`` file with the format below to post point redeem.
     "TerminalID": "10001"
 }
 ````
-for ``GET`` method, add this in ``params``.
+## GET Method
+for *GET* method, add this in ``params``.
 
 ![getredeempoint](img/getredeempoint.png)
 
