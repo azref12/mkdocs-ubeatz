@@ -1,7 +1,7 @@
 ## Location
 Endpoint
 ````
-    url/location/location/?open=1 [GET]
+[GET] url/location/location/?open=1 
 ````
 
 Use ``open`` as ``params`` to get location

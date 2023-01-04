@@ -17,6 +17,7 @@ nav:
     - Home : "index.md"
     - Version :
       - Latest Version : "version/check_version.md"
+    - Variable Settings : "variablesettings.md"
     - Login : 
       - Register : "login/sign_up.md"
       - Sign In : "login/sign_in.md"
@@ -29,8 +30,10 @@ nav:
       - Partner Token : "getplus/partnertoken.md"
       - Request OTP : "getplus/requestotp.md"
       - Verify OTP : "getplus/verifyotp.md"
-      - Member Link : "getplus/memberlink.md"
+      - Member Profile : "getplus/memberprofile.md"
       - Member Unlink : "getplus/memberunlink.md"
+      - Earn Point : "getplus/earnpoint.md"
+      - Point Redeem : "getplus/redeempoint.md"
     - History :
       - Coin  : "history/coinhistory.md"
       - Point : "history/pointhistory.md"

@@ -2,7 +2,7 @@
 
 Endpoint
 ````
-    url/add_point/auth/ [POST]
+[POST] url/add_point/auth/ 
 ````
 Before adding points, make sure you already have an account, ``username``  and ``password`` will be used as ``basic authentication`` to add points. on postman select ``authorization`` next to ``params``, then select ``basic auth type``, then enter the username and password that were registered previously.
 
