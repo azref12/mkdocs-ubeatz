@@ -1,13 +1,17 @@
 ## Redeem Voucher
+
 Endpoint
 ````
-    url/redeem/reedemvoucher/ [POST]
+[POST]  url/redeem/reedemvoucher/ 
 ````
-use this ``json`` file with the format below to redeem voucher
+use this ``json`` file with the format below to redeem voucher.
 ````
 {
-    "kodevoucher": "QWERTY12",
-    "userid": "2"
+    "userid" : 2,
+    "idvoucher" : 2,
+    "kodevoucher" : "ASDFG12",
+    "point" : 10,
+    "coin" : 10
 }
 ````
 ## Result
@@ -19,10 +23,10 @@ use this ``json`` file with the format below to redeem voucher
     "results": {
         "voucher": [
             {
-                "id_voucher": 1,
+                "id_voucher": 2,
                 "nama_voucher": "Free SInging 60 minutes",
                 "jenis": 0,
-                "kode_voucher": "QWERTY12",
+                "kode_voucher": "ASDFG12",
                 "kode_voucher_merchand": "abc12defz",
                 "expired": "2022-06-14T00:00:00",
                 "url": "https://source.unsplash.com/user/c_v_r/",
@@ -36,8 +40,8 @@ use this ``json`` file with the format below to redeem voucher
             {
                 "id": 2,
                 "reward": 0,
-                "point": 40,
-                "coin": 40,
+                "point": 225,
+                "coin": 80,
                 "phone_number": "+6281234567892",
                 "pin": "9PEG5D",
                 "code": 4420,

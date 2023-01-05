@@ -1,7 +1,8 @@
 ## Location
+
 Endpoint
 ````
-    url/master_voucher/location/ [GET]
+[GET] url/master_voucher/location/ 
 ````
 ## Result
 ````

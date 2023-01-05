@@ -1,10 +1,10 @@
-## Member Pofile
+## Member Profile
 
 Endpoint
 ````
-[GET] {{partner_service_url}}/partner/v1/201904/members/CCF28570-A59F-4E24-9530-EF808D7C5F99?access_token
+[GET] {{partner_service_url}}/partner/v1/201904/members/793B1447-D02C-492D-8215-D723F3347AB9
 ````
-to get member profile, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
+to get member profile, use the token obtained from the previous ``partner token`` response as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
 
 ![tokenmemberprofile](img/tokenmemberprofile.png)
 

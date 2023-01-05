@@ -1,10 +1,11 @@
 ## Sign In by Google 
+
 Endpoint
 ````
-    url/user/email/?email=anonim12@gmail.com [GET]
+[GET] url/user/email/?email=anonim12@gmail.com 
 ````
 
-Use ``email`` as ``params`` for sign in
+Use ``email`` as ``params`` for sign in by google.
 
 ## Result 
 ````
@@ -35,7 +36,7 @@ Use ``email`` as ``params`` for sign in
                     {
                         "id_up": 1,
                         "id": 2,
-                        "profile": "media/profile/default.png"
+                        "profile": "media/profile/user.png"
                     }
                 ]
             }

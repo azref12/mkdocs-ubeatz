@@ -1,9 +1,9 @@
 ## Feedback 
 Endpoint
 ````
-    url/feedback/feedback/ [POST]
+[POST] url/feedback/feedback/ 
 ````
-use this ``json`` file with the format below to insert feedback
+use this ``json`` file with the format below to post feedback.
 ````
 {
     "userid": 2,

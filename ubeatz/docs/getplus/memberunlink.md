@@ -7,7 +7,7 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&GetPlusID=6094450002009045855
 ````
-to access unlink member, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
+to access unlink member, use the token obtained from the previous ``partner token`` response as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
 
 ![bearertoken_memberunlink](img/token-memberunlink.png)
 
@@ -31,7 +31,7 @@ for *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getmemberunlink.png)
 
-## Result
+## Result POST Method
 ````
 {
     "ErrorCode": 0,
@@ -44,33 +44,33 @@ for *GET* method, add this in ``params``.
     }
 }
 ````
+## Result GET Method
+if unlink member success
+````
+{
+    "ErrorCode": 0,
+    "ErrorDescription": ""
+}
+````
 ## Error Condition
-if send link twice.
+if send link 2 times.
 ````
 {
     "ErrorCode": -1,
     "ErrorDescription": "Account is already Linked"
 }
 ````
-if input invalid id
+if input invalid id.
 ````
 {
     "ErrorCode": -14,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if input invalid partner id / id
+if input invalid partner id / id.
 ````
 {
     "ErrorCode": -4,
     "ErrorDescription": "Partner not found"
-}
-````
-## Success Result
-if unlink member success
-````
-{
-    "ErrorCode": 0,
-    "ErrorDescription": ""
 }
 ````

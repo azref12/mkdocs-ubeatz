@@ -5,7 +5,7 @@ Endpoint
 [GET] url/history/coin/?id=2 
 ````
 
-Use ``id`` as ``params`` to get coin history
+Use ``id`` as ``params`` to get coin history.
 
 ## Result
 ````

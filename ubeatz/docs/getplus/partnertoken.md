@@ -8,7 +8,7 @@ before request OTP, you must login using ``username`` and ``password`` for the a
 
 ![basic_auth_getplus](img/partner_token.png)
 
-Then, select body ``x-www-urlencoded`` and add grant_type as ``key``.
+Then, select body ``x-www-urlencoded`` and add *grant_type* as ``key``.
 
 ![partner_token](img/bodypartnertoken.png)
 

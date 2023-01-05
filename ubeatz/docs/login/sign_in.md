@@ -1,9 +1,10 @@
 ## Sign In
+
 Endpoint
 ````
-    url/user/login [POST]
+[POST] url/user/login 
 ````
-use this ``json`` file with the format below to sign in
+use this ``json`` file with the format below to sign in.
 ````
 {
     "username": "anonim12",
@@ -43,7 +44,7 @@ use this ``json`` file with the format below to sign in
                 {
                     "id_up": 1,
                     "id": 2,
-                    "profile": "media/profile/default.png"
+                    "profile": "media/profile/user.png"
                 }
             ]
         }

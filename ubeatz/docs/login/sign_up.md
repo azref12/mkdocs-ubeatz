@@ -2,9 +2,9 @@
 
 Endpoint
 ````
-    url/user/user [POST]
+[POST] url/user/user 
 ````
-use this ``json`` file with the format below to sign up
+use this ``json`` file with the format below to sign up.
 ````
 {
     "first_name": "-",
@@ -46,7 +46,7 @@ use this ``json`` file with the format below to sign up
 ````
 ## Error condition
 ````
-#response if email format does not match
+If email format doesn't match.
 {
     "message": "unsuccessfully",
     "status": false,
@@ -54,7 +54,7 @@ use this ``json`` file with the format below to sign up
     "results": "Username is already registered"
 }
 
-#response if password does not match
+If password doesn't match.
 {
     "message": "unsuccessfully",
     "status": false,
@@ -62,7 +62,7 @@ use this ``json`` file with the format below to sign up
     "results": "Password Minimum 8 Character"
 }
 
-#response if username has been registered
+If username has been registered.
 {
     "message": "unsuccessfully",
     "status": false,
@@ -70,7 +70,7 @@ use this ``json`` file with the format below to sign up
     "results": "Username is already registered"
 }
 
-#response if email has been registered
+If email has been registered.
 {
     "message": "unsuccessfully",
     "status": false,

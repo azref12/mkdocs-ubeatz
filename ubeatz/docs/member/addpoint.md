@@ -8,6 +8,7 @@ Before adding points, make sure you already have an account, ``username``  and `
 
 ![basic_auth_images](basic_auth.png)
 
+## Body JSON
 after that, use this ``json`` file with the format below to add point
 ````
 {

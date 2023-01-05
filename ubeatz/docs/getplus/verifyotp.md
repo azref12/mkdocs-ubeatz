@@ -7,16 +7,16 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&GetPlusID=6094450002009045855
 ````
-to verify OTP, use the token obtained earlier at login as ``basic authentication``. on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
+to verify OTP, use the token obtained from the previous ``partner token`` response as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then paste token.
 
-![verify_getplus](img/verifyotp.png)
+![verifyotp_getplus](img/verifyotp.png)
 
 ## Test
 and also, select ``test`` then add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
 
-after that, use this ``json`` file with the format below.
+after that, use this ``json`` file with the format below to verify OTP.
 ````
 {
     "PartnerCustomerAccountID": "fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc",
@@ -32,7 +32,7 @@ and for *GET*  method, add this in ``params``
 
 ![verify_test_getplus](img/getverifyotp.png)
 
-## Result Method POST
+## Result POST Method 
 ````
 {
     "Data": {
@@ -44,7 +44,7 @@ and for *GET*  method, add this in ``params``
     "ErrorDescription": null
 }
 ````
-## Result Method GET
+## Result GET Method 
 ````
 {
     "ErrorCode": 0,
@@ -58,14 +58,14 @@ and for *GET*  method, add this in ``params``
 }
 ````
 ## Error Condition
-if the otp expired
+if the otp expired.
 ````
 {
     "ErrorCode": -16,
     "ErrorDescription": "OTP code expired"
 }
 ````
-if the otp invalid
+if the otp invalid.
 ````
 {
     "ErrorCode": -16,

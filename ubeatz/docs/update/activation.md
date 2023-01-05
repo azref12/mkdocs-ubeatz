@@ -1,17 +1,53 @@
 ## Account Activation
+
 Endpoint
 ````
-    url/user/activation/ [PUT]
+[GET] url/user/getactivation/?user=anonim12
 ````
-use this ``json`` file with the format below to account activation
+````
+[PUT] url/user/activation/ 
+````
+
+## GET Method 
+For *GET* method, use ``user`` as ``params``.
+
+## PUT Method
+Use this ``json`` file with the format below to account activation.
 ````
 {
     "username": "anonim12",
     "codeuser": "3920",
-    "phone_number": "+6281234567892"
+    "phone_number": "+6281234567891"
 }
 ````
-## Result
+
+## Result GET Method
+````
+{
+    "message": "successfully",
+    "status": true,
+    "count": 1,
+    "results": {
+        "master": [
+            {
+                "id": 2,
+                "phone_number": "+6281234567891",
+                "code": 4420,
+                "status": 0
+            }
+        ],
+        "detail": [
+            {
+                "id": 2,
+                "username": "anonim12",
+                "email": "anonim12@gmail.com",
+                "is_active": true
+            }
+        ]
+    }
+}
+````
+## Result PUT Method
 ````
 {
     "message": "successfully",
@@ -24,7 +60,7 @@ use this ``json`` file with the format below to account activation
                 "reward": 0,
                 "point": 0,
                 "coin": 0,
-                "phone_number": "+6281234567892",
+                "phone_number": "+6281234567891",
                 "pin": "JLN8WO",
                 "code": 3920,
                 "status": 1,

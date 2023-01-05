@@ -7,7 +7,7 @@ Endpoint
 ````
 [GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&GetPlusID=6094450002009045855&TransactionValue=1200
 ````
-to access point redeem, use the token obtained earlier at login as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then select ``{{partner_access_token}}`` or you can use contains the token obtained from the previous ``partner_token`` response.
+to access point redeem, use variables ``{{partner_access_token}}`` or you can use the token obtained from the previous ``partner token`` response as ``basic authentication``, on postman select ``authorization`` next to ``params``, then select ``Bearer Token``, then you choose one of the options above to be used as a token.
 
 ![redeem_point](img/tokenredeempoint.png)
 
@@ -46,28 +46,28 @@ for *GET* method, add this in ``params``.
 }
 ````
 ## Error Condition
-if send same TransactionID 2 times
+if send same TransactionID 2 times.
 ````
 {
     "ErrorCode": "20215",
     "ErrorDescription": "Duplicate Transaction ID"
 }
 ````
-if send invalid/empty/expired token
+if send invalid/empty/expired token.
 ````
 {
     "ErrorCode": -12,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if send invalid signature
+if send invalid signature.
 ````
 {
     "ErrorCode": -14,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if send invalid/empty/expired token and sent invalid signature
+if send invalid/empty/expired token and sent invalid signature.
 ````
 {
     "ErrorCode": -12,

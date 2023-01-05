@@ -1,9 +1,10 @@
 ## Change Password 
+
 Endpoint
 ````
-    url/user/changepassword/ [PUT]
+[PUT] url/user/changepassword/ 
 ````
-use this ``json`` file with the format below to change password
+use this ``json`` file with the format below to change password.
 ````
 {
     "id": "2",

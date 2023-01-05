@@ -1,7 +1,7 @@
 ## Version
 Endpoint
 ````
-    https://api-ubeatz.my.id/user/version/ [GET]
+[GET] https://api-ubeatz.my.id/user/version/ 
 ````
 
 This is the latest version of the ubeatz app
