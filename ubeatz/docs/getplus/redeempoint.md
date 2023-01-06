@@ -16,7 +16,8 @@ and also, select ``test`` and add this code.
 
 ![testredeempoint](img/testredeempoint.png)
 
-after that, use this ``json`` file with the format below to post point redeem.
+## POST Method
+Use this ``json`` file with the format below to insert point redeem.
 ````
 {
     "PartnerID": "f6348010-c54c-43d5-9f5e-be4c2562248d",
@@ -46,28 +47,28 @@ for *GET* method, add this in ``params``.
 }
 ````
 ## Error Condition
-if send same TransactionID 2 times.
+If send same TransactionID 2 times.
 ````
 {
     "ErrorCode": "20215",
     "ErrorDescription": "Duplicate Transaction ID"
 }
 ````
-if send invalid/empty/expired token.
+If send invalid/empty/expired token.
 ````
 {
     "ErrorCode": -12,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if send invalid signature.
+If send invalid signature.
 ````
 {
     "ErrorCode": -14,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if send invalid/empty/expired token and sent invalid signature.
+If send invalid/empty/expired token and sent invalid signature.
 ````
 {
     "ErrorCode": -12,

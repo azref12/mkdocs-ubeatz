@@ -16,7 +16,8 @@ and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testmemberunlink.png)
 
-after that, use this ``json`` file with the format below to post unlink member.
+## POST Method
+Use this ``json`` file with the format below to insert unlink member.
 ````
 {
     "PartnerCustomerAccountID": "fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc",
@@ -45,7 +46,7 @@ for *GET* method, add this in ``params``.
 }
 ````
 ## Result GET Method
-if unlink member success
+If unlink member success
 ````
 {
     "ErrorCode": 0,
@@ -53,21 +54,21 @@ if unlink member success
 }
 ````
 ## Error Condition
-if send link 2 times.
+If send link 2 times.
 ````
 {
     "ErrorCode": -1,
     "ErrorDescription": "Account is already Linked"
 }
 ````
-if input invalid id.
+If input invalid id.
 ````
 {
     "ErrorCode": -14,
     "ErrorDescription": "You are not authorize"
 }
 ````
-if input invalid partner id / id.
+If input invalid partner id / id.
 ````
 {
     "ErrorCode": -4,

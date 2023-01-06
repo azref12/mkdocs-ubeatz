@@ -16,7 +16,8 @@ and also, select ``test`` then add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
 
-after that, use this ``json`` file with the format below to verify OTP.
+## POST Method
+Use this ``json`` file with the format below to verify OTP.
 ````
 {
     "PartnerCustomerAccountID": "fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc",

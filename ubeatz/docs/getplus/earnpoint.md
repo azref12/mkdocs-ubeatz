@@ -16,7 +16,8 @@ and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testearnpoint.png)
 
-after that, use this ``json`` file with the format below to post earn point.
+## POST Method
+Use this ``json`` file with the format below to insert earn point.
 ````
 {
     "PartnerID": "f6348010-c54c-43d5-9f5e-be4c2562248d",

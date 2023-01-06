@@ -31,7 +31,7 @@ for *GET* method, add this in ``params``.
 ````
 ## Error Condition
 
-if member non existing profile
+If member non existing profile
 ````
 {
     "ErrorCode": 30201,
