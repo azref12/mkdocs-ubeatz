@@ -9,7 +9,7 @@ theme :
       - content.tabs.link
 plugins: 
     - search
-    - glightbox
+    
 # markdown_extensions:
 #     - attr_list
 #     - md_in_html
@@ -17,15 +17,16 @@ nav:
     - Home : "index.md"
     - Version : "check_version.md"
     - Variable Settings : "variablesettings.md"
-    - Login : 
-      - Register : "login/sign_up.md"
-      - Upload Profile Picture : "login/uploadprofpic.md"
-      - Sign In : "login/sign_in.md"
-      - Sign In by Google : "login/login_by_google.md"
-    - Update :
-      - Activation Account : "update/activation.md" 
-      - Change Password : "update/changepass.md"
-      - Change Phone Number : "update/changephonenumber.md"
+    - User : 
+      - Login : 
+        - Register : "user/login/sign_up.md"
+        - Upload Profile Picture : "user/login/uploadprofpic.md"
+        - Sign In : "user/login/sign_in.md"
+        - Sign In by Google : "user/login/login_by_google.md"
+      - Update :
+        - Activation Account : "user/update/activation.md" 
+        - Change Password : "user/update/changepass.md"
+        - Change Phone Number : "user/update/changephonenumber.md"
     - GetPlus : 
       - Partner Token : "getplus/partnertoken.md"
       - Request OTP : "getplus/requestotp.md"
@@ -34,17 +35,24 @@ nav:
       - Member Unlink : "getplus/memberunlink.md"
       - Earn Point : "getplus/earnpoint.md"
       - Point Redeem : "getplus/redeempoint.md"
-    - History :
-      - Coin  : "history/coinhistory.md"
-      - Point : "history/pointhistory.md"
-      - Point - Coin : "history/pointcoint.md"
-    - Location : "location.md"
     - Member :
       - Add Point : "member/addpoint.md"
       - Feedback : "member/feedback.md"
-    - Voucher : 
-      - Master Voucher : 
-        - Location : "voucher/mastervoucher/location.md"
-      - Redeem Voucher : "voucher/redemvoucher.md"
-      - Voucher List : "voucher/voucher.md" 
-     
+    - System : 
+      - Devices:
+        - Devices List : "system/devices/devices.md"
+        - Search Item : "system/devices/searchitem.md"
+        - Checkin Item : "system/devices/checkinitem.md"
+      - Location : "system/location.md"
+      - Tools :
+        - Tools List : "system/tools/tools.md"
+        - Search Tools : "system/tools/searchtools.md"
+      - Voucher : 
+        - Master Voucher : 
+          - Location : "system/voucher/mastervoucher/location.md"
+        - Redeem Voucher : "system/voucher/redemvoucher.md"
+        - Voucher List : "system/voucher/voucher.md" 
+    - History :
+      - Coin  : "history/coinhistory.md"
+      - Point : "history/pointhistory.md"
+      - Point - Coin : "history/pointcoint.md"   

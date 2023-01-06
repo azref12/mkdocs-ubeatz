@@ -1,4 +1,5 @@
 ## Location
+
 Endpoint
 ````
 [POST] url/location/location/
