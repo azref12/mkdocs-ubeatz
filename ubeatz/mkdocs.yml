@@ -1,22 +1,18 @@
 site_name: UBEATZ
 site_url: https://ubeatz.indosoft.co.id
-# theme : readthedocs
+
 theme : 
     name : material
     features : 
       - search.suggest
       - search.highlight
       - content.tabs.link
-plugins: 
+
+plugins : 
     - search
-    
-# markdown_extensions:
-#     - attr_list
-#     - md_in_html
-nav:
+
+nav :
     - Home : "index.md"
-    - Version : "check_version.md"
-    - Variable Settings : "variablesettings.md"
     - User : 
       - Login : 
         - Register : "user/login/sign_up.md"
@@ -35,6 +31,10 @@ nav:
       - Member Unlink : "getplus/memberunlink.md"
       - Earn Point : "getplus/earnpoint.md"
       - Point Redeem : "getplus/redeempoint.md"
+    - History :
+      - Coin  : "history/coinhistory.md"
+      - Point : "history/pointhistory.md"
+      - Point - Coin : "history/pointcoint.md"
     - Member :
       - Add Point : "member/addpoint.md"
       - Feedback : "member/feedback.md"
@@ -51,8 +51,6 @@ nav:
         - Master Voucher : 
           - Location : "system/voucher/mastervoucher/location.md"
         - Redeem Voucher : "system/voucher/redemvoucher.md"
-        - Voucher List : "system/voucher/voucher.md" 
-    - History :
-      - Coin  : "history/coinhistory.md"
-      - Point : "history/pointhistory.md"
-      - Point - Coin : "history/pointcoint.md"   
+        - Voucher List : "system/voucher/voucher.md"  
+    - Version : "check_version.md"
+    - Variable Settings : "variablesettings.md"  

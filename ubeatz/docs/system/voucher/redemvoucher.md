@@ -2,9 +2,11 @@
 
 Endpoint
 ````
-[POST]  url/redeem/reedemvoucher/ 
+[POST] url/redeem/reedemvoucher/ 
 ````
-use this ``json`` file with the format below to redeem voucher.
+
+## POST Method
+Use this ``json`` file with the format below to redeem voucher.
 ````
 {
     "userid" : 2,

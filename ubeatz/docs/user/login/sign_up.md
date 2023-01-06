@@ -4,7 +4,9 @@ Endpoint
 ````
 [POST] url/user/user 
 ````
-use this ``json`` file with the format below to sign up.
+
+## POST Method
+Use this ``json`` file with the format below to sign up.
 ````
 {
     "first_name": "-",

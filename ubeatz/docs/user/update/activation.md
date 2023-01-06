@@ -12,7 +12,7 @@ Endpoint
 For *GET* method, use ``user`` as ``params``.
 
 ## PUT Method
-Use this ``json`` file with the format below to account activation.
+For *PUT* method, use this ``json`` file with the format below to account activation.
 ````
 {
     "username": "anonim12",

@@ -5,6 +5,9 @@ Endpoint
 [GET] url/tools/devices-details/?code=ALS 
 ````
 
+## GET Method
+For *GET* method, use *code* as ``params``.
+
 ## Result GET Method
 ````
 {

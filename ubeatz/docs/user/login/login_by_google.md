@@ -5,6 +5,7 @@ Endpoint
 [GET] url/user/email/?email=anonim12@gmail.com 
 ````
 
+## GET Method
 Use ``email`` as ``params`` for sign in by google.
 
 ## Result 

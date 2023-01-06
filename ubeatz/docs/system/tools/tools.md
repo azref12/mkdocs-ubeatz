@@ -8,7 +8,7 @@ Endpoint
 [GET] url/tools/devices/ 
 ````
 ````
-[PUT] url/tools/devices/
+[PUT] url/tools/devices/?code=ALS
 ````
 
 ## POST Method

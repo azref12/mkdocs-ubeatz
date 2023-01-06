@@ -3,8 +3,10 @@
 Endpoint
 ````
 [PUT] url/user/changephonenumber/ 
-```` 
-use this ``json`` file with the format below to change phone number.
+````
+
+## PUT Method 
+For *PUT* method, use this ``json`` file with the format below to change phone number.
 ````
 {
     "username": "anonim12",

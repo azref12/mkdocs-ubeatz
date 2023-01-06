@@ -141,7 +141,7 @@ and also, add this ``json`` file with the format below to update devices.
 }
 ````
 
-## PUT Method
+## Result PUT Method
 ````
 {
     "message": "successfully",

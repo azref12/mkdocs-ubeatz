@@ -4,7 +4,9 @@ Endpoint
 ````
 [PUT] url/user/changepassword/ 
 ````
-use this ``json`` file with the format below to change password.
+
+## PUT Method 
+For *PUT* method, use this ``json`` file with the format below to change password.
 ````
 {
     "id": "2",

@@ -5,7 +5,8 @@ Endpoint
 [GET] url/history/point-coint/?id=2 
 ````
 
-Use ``id`` as ``params`` to get point-coin history.
+## GET Method
+For *GET* method, use ``id`` as ``params`` to get point-coin history.
 
 ## Result
 ````

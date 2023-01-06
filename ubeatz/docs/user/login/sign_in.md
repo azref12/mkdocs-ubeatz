@@ -4,7 +4,9 @@ Endpoint
 ````
 [POST] url/user/login 
 ````
-use this ``json`` file with the format below to sign in.
+
+## POST Method 
+Use this ``json`` file with the format below to sign in.
 ````
 {
     "username": "anonim12",
