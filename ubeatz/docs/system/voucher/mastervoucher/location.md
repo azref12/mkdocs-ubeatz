@@ -1,4 +1,4 @@
-## Location
+## Master Voucher > Location
 
 Endpoint
 ````

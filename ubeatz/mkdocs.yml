@@ -1,5 +1,5 @@
 site_name: UBEATZ
-site_url: https://ubeatz.indosoft.co.id
+site_url: http://api.ubeatz.co.id/
 
 theme : 
     name : material
@@ -49,8 +49,10 @@ nav :
         - Search Tools : "system/tools/searchtools.md"
       - Voucher : 
         - Master Voucher : 
+          - Buy Voucher Master : "system/voucher/mastervoucher/buyvouchermaster.md"
           - Location : "system/voucher/mastervoucher/location.md"
         - Redeem Voucher : "system/voucher/redemvoucher.md"
-        - Voucher List : "system/voucher/voucher.md"  
+        - Voucher List : "system/voucher/voucher.md"
+        - Voucher by API Ubeatz : "system/voucher/voucherbyapiubeatz.md"
     - Version : "check_version.md"
     - Variable Settings : "variablesettings.md"  

@@ -8,10 +8,17 @@ Endpoint
 ## POST Method
 Use this ``json`` file with the format below to redeem voucher.
 ````
+#1
+{
+    "kodevoucher": "QWERTY12",
+    "userid": "2"
+}
+
+#2
 {
     "userid" : 2,
     "idvoucher" : 2,
-    "kodevoucher" : "ASDFG12",
+    "kodevoucher" : "QWERTY12",
     "point" : 10,
     "coin" : 10
 }
@@ -58,3 +65,20 @@ Use this ``json`` file with the format below to redeem voucher.
     }
 }
 ````
+
+## Error Condition
+If redeem voucher 2 times with the same *kodevoucher*.
+{
+    "message": "unsuccessfully",
+    "status": false,
+    "count": 1,
+    "results": "duplicate voucher"
+}
+
+If send wrong *kodevoucher*. 
+{
+    "message": "unsuccessfully",
+    "status": false,
+    "count": 1,
+    "results": "code is wrong"
+}
