@@ -2,12 +2,12 @@ site_name: UBEATZ
 site_url: http://api.ubeatz.co.id/
 
 theme : 
-    # name : material
-    # features : 
-    #   - search.suggest
-    #   - search.highlight
-    #   - content.tabs.link
-    name: mkdocs
+    name : material
+    features : 
+      - search.suggest
+      - search.highlight
+      - content.tabs.link
+    # name: mkdocs
     custom_dir: custom_theme/
 
 plugins : 
