@@ -4,7 +4,7 @@ Endpoint
 ````
 [POST] url/add_point/auth/ 
 ````
-Before adding points, make sure you already have an account, ``username``  and ``password`` will be used as ``basic authentication`` to add points. on postman select ``authorization`` next to ``params``, then select ``basic auth type``, then insert the username and password that were registered previously.
+Before adding points, make sure you already have an account, ``username``  and ``password`` will be used as ``basic authentication`` to add points. On postman select ``authorization`` next to ``params``, then select ``basic auth type``, then insert the username and password that were registered previously.
 
 ![basic_auth_images](basic_auth.png)
 

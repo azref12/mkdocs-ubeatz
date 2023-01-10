@@ -9,7 +9,7 @@ Endpoint
 ````
 
 ## GET Method 
-For *GET* method, use ``user`` as ``params``.
+For *GET* method, use *user* as ``params``.
 
 ## PUT Method
 For *PUT* method, use this ``json`` file with the format below to account activation.

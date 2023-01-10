@@ -6,7 +6,7 @@ Endpoint
 ````
 
 ## GET Method
-For *GET* method, use ``id`` as ``params`` to get point-coin history.
+For *GET* method, use *id* as ``params`` to get point-coin history.
 
 ## Result
 ````

@@ -19,7 +19,7 @@ Use this ``json`` file with the format below to insert tools.
     "promo" : [{"path": "http://8.215.47.1/imgpromo/1.png"}, {"path": "http://8.215.47.1/imgpromo/2.png"},{"path": "http://8.215.47.1/imgpromo/3.png"}, {"path": "http://8.215.47.1/imgpromo/4.png"}],
     "opening" : [{"path": "http://8.215.47.1/promo.mp4"}],
     "setting" : [{"urlserver_lagu": "http://8.215.47.1/booth/lagu/"}],
-    "code" : "UBT",
+    "code" : "ALS",
     "keterangan" : "Ubeatz"
 }
 ````
@@ -48,46 +48,6 @@ and also, add this ``json`` file with the format below to update tools.
     "count": 1,
     "results": {
         "devices": [
-            {
-                "id": 1,
-                "runtext": [
-                    {
-                        "text": "Selamat Datang Di Karaoke"
-                    },
-                    {
-                        "text": "Free 1 Jam Gratis 1 Jam"
-                    },
-                    {
-                        "text": "Discount 10% Khusus Member"
-                    }
-                ],
-                "promo": [
-                    {
-                        "path": "http://8.215.47.1/imgpromo/1.png"
-                    },
-                    {
-                        "path": "http://8.215.47.1/imgpromo/2.png"
-                    },
-                    {
-                        "path": "http://8.215.47.1/imgpromo/3.png"
-                    },
-                    {
-                        "path": "http://8.215.47.1/imgpromo/4.png"
-                    }
-                ],
-                "opening": [
-                    {
-                        "path": "http://8.215.47.1/promo.mp4"
-                    }
-                ],
-                "setting": [
-                    {
-                        "urlserver_lagu": "http://10.0.1.200/data/"
-                    }
-                ],
-                "code": "UBT",
-                "keterangan": "Ubeatz"
-            },
             {
                 "id": 2,
                 "runtext": [
@@ -277,7 +237,7 @@ and also, add this ``json`` file with the format below to update tools.
 ````
 
 ## Error Condition
-If use same code.
+If use the same code.
 ````
 {
     "message": "successfully",

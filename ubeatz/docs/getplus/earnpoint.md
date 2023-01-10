@@ -16,6 +16,25 @@ and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testearnpoint.png)
 
+````
+var jsonData = JSON.parse(responseBody);
+if (jsonData.Data.Timestamp) {
+    postman.setEnvironmentVariable("timestamp", jsonData.Data.Timestamp);
+}
+if (jsonData.Data.Signature) {
+    postman.setEnvironmentVariable("signature", jsonData.Data.Signature);
+}
+if (jsonData.Data.PartnerID) {
+    postman.setEnvironmentVariable("partner_id", jsonData.Data.PartnerID);
+}
+if (jsonData.Data.PartnerCustomerAccountID) {
+    postman.setEnvironmentVariable("partner_customer_id", jsonData.Data.PartnerCustomerAccountID);
+}
+if (jsonData.Data.TransactionValue) {
+    postman.setEnvironmentVariable("trans_value", jsonData.Data.TransactionValue);
+}
+````
+
 ## POST Method
 Use this ``json`` file with the format below to insert earn point.
 ````
@@ -30,7 +49,7 @@ Use this ``json`` file with the format below to insert earn point.
 }
 ````
 ## GET Method
-for *GET* method, add this in ``params``.
+For *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getearnpoint.png)
 

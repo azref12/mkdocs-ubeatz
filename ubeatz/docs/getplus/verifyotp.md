@@ -29,9 +29,28 @@ Use this ``json`` file with the format below to verify OTP.
 }
 ````
 ## GET Method
-and for *GET*  method, add this in ``params`` 
+For *GET*  method, add this in ``params`` 
 
 ![verify_test_getplus](img/getverifyotp.png)
+
+````
+var jsonData = JSON.parse(responseBody);
+if (jsonData.Data.Timestamp) {
+    postman.setEnvironmentVariable("timestamp", jsonData.Data.Timestamp);
+}
+if (jsonData.Data.Signature) {
+    postman.setEnvironmentVariable("signature", jsonData.Data.Signature);
+}
+if (jsonData.Data.PartnerID) {
+    postman.setEnvironmentVariable("partner_id", jsonData.Data.PartnerID);
+}
+if (jsonData.Data.PartnerCustomerAccountID) {
+    postman.setEnvironmentVariable("partner_customer_id", jsonData.Data.PartnerCustomerAccountID);
+}
+if (jsonData.Data.OTP) {
+    postman.setEnvironmentVariable("otp_result", jsonData.Data.OTP);
+}
+````
 
 ## Result POST Method 
 ````
@@ -59,14 +78,14 @@ and for *GET*  method, add this in ``params``
 }
 ````
 ## Error Condition
-if the otp expired.
+If the otp expired.
 ````
 {
     "ErrorCode": -16,
     "ErrorDescription": "OTP code expired"
 }
 ````
-if the otp invalid.
+If the otp invalid.
 ````
 {
     "ErrorCode": -16,

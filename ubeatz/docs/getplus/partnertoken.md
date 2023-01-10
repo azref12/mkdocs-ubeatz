@@ -17,6 +17,13 @@ and also, select ``test`` and add this code.
 
 ![partner_token](img/testpartnertoken.png)
 
+````
+var jsonData = JSON.parse(responseBody);
+if (jsonData.Data.Access_Token) {
+    postman.setEnvironmentVariable("partner_access_token", jsonData.Data.Access_Token);
+}
+````
+
 ## Result
 ````
 {

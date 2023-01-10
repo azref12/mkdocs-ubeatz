@@ -16,6 +16,22 @@ and also, select ``test`` and add this code.
 
 ![basic_auth_getplus](img/testrequestotp.png)
 
+````
+var jsonData = JSON.parse(responseBody);
+if (jsonData.Data.Timestamp) {
+    postman.setEnvironmentVariable("timestamp", jsonData.Data.Timestamp);
+}
+if (jsonData.Data.Signature) {
+    postman.setEnvironmentVariable("signature", jsonData.Data.Signature);
+}
+if (jsonData.Data.PartnerID) {
+    postman.setEnvironmentVariable("partner_id", jsonData.Data.PartnerID);
+}
+if (jsonData.Data.GetPlusID) {
+    postman.setEnvironmentVariable("getplus_id", jsonData.Data.GetPlusID);
+}
+````
+
 ## POST Method
 Use this ``json`` file with the format below to insert request otp.
 ````

@@ -20,7 +20,7 @@ Use this ``json`` file with the format below to insert location.
 ````
 
 ## GET Method
-Use ``open`` as ``params`` to get location.
+Use *open* as ``params`` to get location.
 
 ## Result POST Method
 ````

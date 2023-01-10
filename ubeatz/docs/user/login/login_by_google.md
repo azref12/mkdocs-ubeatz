@@ -6,7 +6,7 @@ Endpoint
 ````
 
 ## GET Method
-Use ``email`` as ``params`` for sign in by google.
+Use *email*  as ``params`` for sign in by google.
 
 ## Result 
 ````

@@ -8,11 +8,6 @@ to get member profile, use the token obtained from the previous ``partner token`
 
 ![tokenmemberprofile](img/tokenmemberprofile.png)
 
-## GET Method
-for *GET* method, add this in ``params``.
-
-![getmemberprofile](img/getmemberprofile.png)
-
 ## Result
 ````
 {

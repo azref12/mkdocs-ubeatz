@@ -104,4 +104,4 @@ and also, add this ``json`` file with the format below to update checkin item co
 the difference between *Devices > Checkin Item* and *Devices > Checkin Item Code* :
 
 1. ``params``, on *Devices > Checkin Item* the parameter used is *namadevices*, while on *Devices > Checkin Item Code* the parameter used is *code*.
-2. Naming the ``json`` file in the user section. on *Devices > Checkin Item* use ``user``, while on *Devices > Checkin Item Code* use ``iduser``.
+2. Naming the ``json`` file in the user section. On *Devices > Checkin Item* use ``user``, while on *Devices > Checkin Item Code* use ``iduser``.
