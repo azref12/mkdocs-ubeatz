@@ -1,4 +1,4 @@
-## Tools > GET by Code
+## Tools > Search by Code
 
 Endpoint
 ````

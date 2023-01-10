@@ -16,23 +16,6 @@ and also, select ``test`` then add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
 
-## POST Method
-Use this ``json`` file with the format below to verify OTP.
-````
-{
-    "PartnerCustomerAccountID": "fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc",
-    "PartnerID": "f6348010-c54c-43d5-9f5e-be4c2562248d",
-    "GetPlusID": "6094450002009045855",
-    "Signature": "EROGkFQkA0kswYIsIZstEbirg8MxTStoY0ZwOvBpY4I=",
-    "Timestamp": "1662101936",
-	"OTP": "817270"
-}
-````
-## GET Method
-For *GET*  method, add this in ``params`` 
-
-![verify_test_getplus](img/getverifyotp.png)
-
 ````
 var jsonData = JSON.parse(responseBody);
 if (jsonData.Data.Timestamp) {
@@ -51,6 +34,23 @@ if (jsonData.Data.OTP) {
     postman.setEnvironmentVariable("otp_result", jsonData.Data.OTP);
 }
 ````
+
+## POST Method
+Use this ``json`` file with the format below to verify OTP.
+````
+{
+    "PartnerCustomerAccountID": "fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc",
+    "PartnerID": "f6348010-c54c-43d5-9f5e-be4c2562248d",
+    "GetPlusID": "6094450002009045855",
+    "Signature": "EROGkFQkA0kswYIsIZstEbirg8MxTStoY0ZwOvBpY4I=",
+    "Timestamp": "1662101936",
+	"OTP": "817270"
+}
+````
+## GET Method
+For *GET*  method, add this in ``params`` 
+
+![verify_test_getplus](img/getverifyotp.png)
 
 ## Result POST Method 
 ````

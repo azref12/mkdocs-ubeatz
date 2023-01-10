@@ -60,7 +60,8 @@ Use this ``json`` file with the format below to redeem voucher.
 ````
 
 ## Error Condition
-If redeem voucher 2 times with the same *kodevoucher*.
+````
+If redeem voucher 2 times with the same kodevoucher.
 {
     "message": "unsuccessfully",
     "status": false,
@@ -68,10 +69,11 @@ If redeem voucher 2 times with the same *kodevoucher*.
     "results": "duplicate voucher"
 }
 
-If send wrong *kodevoucher*. 
+If send wrong kodevoucher. 
 {
     "message": "unsuccessfully",
     "status": false,
     "count": 1,
     "results": "code is wrong"
 }
+````
