@@ -8,13 +8,6 @@ Endpoint
 ## POST Method
 Use this ``json`` file with the format below to redeem voucher.
 ````
-#1
-{
-    "kodevoucher": "QWERTY12",
-    "userid": "2"
-}
-
-#2
 {
     "userid" : 2,
     "idvoucher" : 2,

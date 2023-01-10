@@ -53,6 +53,6 @@ nav :
           - Location : "system/voucher/mastervoucher/location.md"
         - Redeem Voucher : "system/voucher/redemvoucher.md"
         - Voucher List : "system/voucher/voucher.md"
-        - Voucher by API Ubeatz : "system/voucher/voucherbyapiubeatz.md"
+        - Voucher by API Ubeatz : "system/voucherbyapiubeatz.md"
     - Version : "check_version.md"
     - Variable Settings : "variablesettings.md"  
