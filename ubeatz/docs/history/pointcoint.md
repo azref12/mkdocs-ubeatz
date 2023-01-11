@@ -1,14 +1,14 @@
 ## Point-Coin History 
 
-Endpoint
+### Endpoint
 ````
 [GET] url/history/point-coint/?id=2 
 ````
 
-## GET Method
+### GET Method
 For *GET* method, use *id* as ``params`` to get point-coin history.
 
-## Result
+### Result
 ````
 {
     "message": "successfully",

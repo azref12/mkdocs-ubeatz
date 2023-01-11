@@ -1,6 +1,6 @@
 ## Request OTP
 
-Endpoint
+### Endpoint
 ````
 [POST] {{partner_service_url}}/security/v1/201904/oauth/otp 
 ````
@@ -11,7 +11,7 @@ to get OTP, use the token obtained from the previous ``partner token`` response 
 
 ![basic_auth_getplus](img/basic_auth_getplus.png)
 
-## Test 
+### Test 
 and also, select ``test`` and add this code.
 
 ![basic_auth_getplus](img/testrequestotp.png)
@@ -32,7 +32,7 @@ if (jsonData.Data.GetPlusID) {
 }
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert request otp.
 ````
 {
@@ -42,7 +42,7 @@ Use this ``json`` file with the format below to insert request otp.
     "Timestamp": "1662092274"
 }
 ````
-## Result
+### Result
 ````
 {
     "ErrorCode": 0,
@@ -55,7 +55,7 @@ Use this ``json`` file with the format below to insert request otp.
     }
 }
 ````
-## Error Condition
+### Error Condition
 if request more than 3 times
 ````
 {

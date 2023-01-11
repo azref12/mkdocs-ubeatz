@@ -1,14 +1,14 @@
 ## Devices > Search Item
 
-Endpoint
+### Endpoint
 ````
 [GET] url/devices/booth-devices-details/?namadevices=73d7f26052f2c1a0
 ````
 
-## GET Method
+### GET Method
 For *GET* method, use *namadevices* as ``params``.
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",

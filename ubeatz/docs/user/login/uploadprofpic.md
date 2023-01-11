@@ -1,6 +1,6 @@
 ## Upload Profile Picture
 
-Endpoint
+### Endpoint
 ````
 [POST] url/user/upload/ 
 ````
@@ -8,12 +8,12 @@ Endpoint
 [GET] url/user/upload/ 
 ````
 
-## POST Method
+### POST Method
 for *POST* method, add this in ``params``.
 
 ![upload_profpic](paramuploadprofpic.png)
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "Status": true,
@@ -25,7 +25,7 @@ for *POST* method, add this in ``params``.
     }
 }
 ````
-## Result GET Method
+### Result GET Method
 ````
 {
     "status": true,

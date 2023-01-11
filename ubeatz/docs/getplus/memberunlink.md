@@ -1,6 +1,6 @@
 ## Member Unlink
 
-Endpoint
+### Endpoint
 ````
 [POST] {{partner_service_url}}/partner/v1/201904/members/unlink
 ````
@@ -11,7 +11,7 @@ to access unlink member, use the token obtained from the previous ``partner toke
 
 ![bearertoken_memberunlink](img/token-memberunlink.png)
 
-## Test
+### Test
 and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testmemberunlink.png)
@@ -38,7 +38,7 @@ if (jsonData.Data.GetPlusID) {
 }
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert unlink member.
 ````
 {
@@ -49,12 +49,12 @@ Use this ``json`` file with the format below to insert unlink member.
     "Timestamp": "1662111091"
 }
 ````
-## GET Method
+### GET Method
 For *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getmemberunlink.png)
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "ErrorCode": 0,

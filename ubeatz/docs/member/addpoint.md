@@ -1,6 +1,6 @@
 ## Add Point
 
-Endpoint
+### Endpoint
 ````
 [POST] url/add_point/auth/ 
 ````
@@ -8,7 +8,7 @@ Before adding points, make sure you already have an account, ``username``  and `
 
 ![basic_auth_images](basic_auth.png)
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to add point.
 ````
 {
@@ -17,7 +17,7 @@ Use this ``json`` file with the format below to add point.
     "value_point" : 60
 }
 ````
-## Result
+### Result
 ````
 {
     "Status": true,

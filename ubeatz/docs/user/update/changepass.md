@@ -1,11 +1,11 @@
 ## Change Password 
 
-Endpoint
+### Endpoint
 ````
 [PUT] url/user/changepassword/ 
 ````
 
-## PUT Method 
+### PUT Method 
 For *PUT* method, use this ``json`` file with the format below to change password.
 ````
 {
@@ -13,7 +13,7 @@ For *PUT* method, use this ``json`` file with the format below to change passwor
     "password": "12345678"
 }
 ````
-## Result 
+### Result 
 ````
 {
     "message": "successfully",

@@ -1,6 +1,6 @@
 ## Member Profile
 
-Endpoint
+### Endpoint
 ````
 [GET] {{partner_service_url}}/partner/v1/201904/members/793B1447-D02C-492D-8215-D723F3347AB9
 ````
@@ -8,7 +8,7 @@ to get member profile, use the token obtained from the previous ``partner token`
 
 ![tokenmemberprofile](img/tokenmemberprofile.png)
 
-## Result
+### Result
 ````
 {
     "Data": {
@@ -24,7 +24,7 @@ to get member profile, use the token obtained from the previous ``partner token`
     "ErrorDescription": null
 }
 ````
-## Error Condition
+### Error Condition
 
 If member non existing profile
 ````

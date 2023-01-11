@@ -1,10 +1,10 @@
 ## Feedback 
-Endpoint
+### Endpoint
 ````
 [POST] url/feedback/feedback/ 
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert feedback.
 ````
 {
@@ -19,7 +19,7 @@ Use this ``json`` file with the format below to insert feedback.
     "sugest_song": "padi - semua tak sama"
 }
 ````
-## Result 
+### Result 
 ````
 {
     "message": "successfully",

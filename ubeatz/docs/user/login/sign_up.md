@@ -1,11 +1,11 @@
 ## Sign Up
 
-Endpoint
+### Endpoint
 ````
 [POST] url/user/user 
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to sign up.
 ````
 {
@@ -20,7 +20,7 @@ Use this ``json`` file with the format below to sign up.
     "referral_code" : "zref"
 }
 ````
-## Result
+### Result
 ```` 
 {
     "message": "successfully",
@@ -46,7 +46,7 @@ Use this ``json`` file with the format below to sign up.
     }
 }
 ````
-## Error condition
+### Error condition
 ````
 If email format doesn't match.
 {

@@ -1,11 +1,11 @@
 ## Redeem Voucher
 
-Endpoint
+### Endpoint
 ````
 [POST] url/redeem/reedemvoucher/ 
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to redeem voucher.
 ````
 {
@@ -16,7 +16,7 @@ Use this ``json`` file with the format below to redeem voucher.
     "coin" : 10
 }
 ````
-## Result
+### Result
 ````
 {
     "message": "successfully",
@@ -59,7 +59,7 @@ Use this ``json`` file with the format below to redeem voucher.
 }
 ````
 
-## Error Condition
+### Error Condition
 ````
 If redeem voucher 2 times with the same kodevoucher.
 {

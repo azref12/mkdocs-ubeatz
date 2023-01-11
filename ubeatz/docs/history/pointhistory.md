@@ -1,10 +1,10 @@
 ## Point History 
 
-Endpoint
+### Endpoint
 ````
 [GET] url/user/point-history-set/2 
 ````
-## Result
+### Result
 ````
 {
     "message": "successfully",

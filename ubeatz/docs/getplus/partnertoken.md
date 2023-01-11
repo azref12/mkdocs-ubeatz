@@ -1,6 +1,6 @@
 ## Partner Token
 
-Endpoint
+### Endpoint
 ````
 [POST] {{partner_service_url}}/security/v1/201904/oauth/token 
 ````
@@ -12,7 +12,7 @@ Then, select body ``x-www-urlencoded`` and add *grant_type* as ``key``.
 
 ![partner_token](img/bodypartnertoken.png)
 
-## Test
+### Test
 and also, select ``test`` and add this code.
 
 ![partner_token](img/testpartnertoken.png)
@@ -24,7 +24,7 @@ if (jsonData.Data.Access_Token) {
 }
 ````
 
-## Result
+### Result
 ````
 {
     "ErrorCode": 0,

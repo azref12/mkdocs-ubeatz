@@ -1,6 +1,6 @@
 ## Voucher by API Ubeatz
 
-Endpoint
+### Endpoint
 ````
 [POST] http://api.ubeatz.co.id/v1/voucher
 ````
@@ -8,7 +8,7 @@ Endpoint
 [GET] http://api.ubeatz.co.id/v1/voucher
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert voucher.
 ````
 {
@@ -25,7 +25,7 @@ Use this ``json`` file with the format below to insert voucher.
 }
 ````
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "meta": {
@@ -111,7 +111,7 @@ Use this ``json`` file with the format below to insert voucher.
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "meta": {

@@ -1,14 +1,14 @@
 ## Tools > Search by Code
 
-Endpoint
+### Endpoint
 ````
 [GET] url/tools/devices-details/?code=ALS 
 ````
 
-## GET Method
+### GET Method
 For *GET* method, use *code* as ``params``.
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",

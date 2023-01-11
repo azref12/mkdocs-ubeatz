@@ -1,6 +1,6 @@
 ## Earn Point / Sale Transaction
 
-Endpoint
+### Endpoint
 ````
 [POST] {{partner_service_url}}/partner/v1/201904/members/saletransaction
 ````
@@ -11,7 +11,7 @@ to access earn point / sale transaction, use variables ``{{partner_access_token}
 
 ![earn_point](img/tokenearnpoint.png)
 
-## Test
+### Test
 and also, select ``test`` and add this code.
 
 ![testmemberunlink](img/testearnpoint.png)
@@ -35,7 +35,7 @@ if (jsonData.Data.TransactionValue) {
 }
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert earn point.
 ````
 {
@@ -48,12 +48,12 @@ Use this ``json`` file with the format below to insert earn point.
     "TerminalID": "10001"
 }
 ````
-## GET Method
+### GET Method
 For *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getearnpoint.png)
 
-## Result
+### Result
 ````
 {
     "ErrorCode": 0,
@@ -65,7 +65,7 @@ For *GET* method, add this in ``params``.
     }
 }
 ````
-## Error Condition
+### Error Condition
 if send same TransactionID 2 times.
 ````
 {

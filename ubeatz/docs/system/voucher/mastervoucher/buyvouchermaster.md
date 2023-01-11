@@ -1,6 +1,6 @@
 ## Master Voucher > Buy Voucher Master
 
-Endpoint
+### Endpoint
 ````
 [POST] url/master_voucher/buyvouchermaster/
 ````
@@ -8,7 +8,7 @@ Endpoint
 [GET] url/master_voucher/buyvouchermaster/
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert buy voucher master.
 ````
 {
@@ -26,12 +26,12 @@ Use this ``json`` file with the format below to insert buy voucher master.
 }
 ````
 
-## Result POST Method
+### Result POST Method
 ````
 
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",

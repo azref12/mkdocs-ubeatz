@@ -1,6 +1,6 @@
 ## Devices
 
-Endpoint
+### Endpoint
 ````
 [POST] url/devices/booth-devices/
 ````
@@ -11,7 +11,7 @@ Endpoint
 [PUT] url/devices/booth-devices/?namadevices=73d7f26052f2c1a0
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert devices.
 ````
 {
@@ -27,7 +27,7 @@ Use this ``json`` file with the format below to insert devices.
 }
 ````
 
-## PUT Method
+### PUT Method
 For *PUT* method, use *namadevices* as ``params``.
 
 ![params_putmethod](paramputdevices.png)
@@ -41,7 +41,7 @@ and also, add this ``json`` file with the format below to update devices.
 }
 ```` 
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "message": "successfully",
@@ -112,7 +112,7 @@ and also, add this ``json`` file with the format below to update devices.
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",
@@ -141,7 +141,7 @@ and also, add this ``json`` file with the format below to update devices.
 }
 ````
 
-## Result PUT Method
+### Result PUT Method
 ````
 {
     "message": "successfully",

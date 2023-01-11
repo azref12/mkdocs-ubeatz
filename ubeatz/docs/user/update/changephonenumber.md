@@ -1,11 +1,11 @@
 ## Change Phone Number
 
-Endpoint
+### Endpoint
 ````
 [PUT] url/user/changephonenumber/ 
 ````
 
-## PUT Method 
+### PUT Method 
 For *PUT* method, use this ``json`` file with the format below to change phone number.
 ````
 {
@@ -13,7 +13,7 @@ For *PUT* method, use this ``json`` file with the format below to change phone n
     "phone_number": "+6281234567892"
 }
 ````
-## Result
+### Result
 ````
 {
     "message": "successfully",

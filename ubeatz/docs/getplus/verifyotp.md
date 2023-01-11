@@ -1,6 +1,6 @@
 ## Verify OTP
 
-Endpoint
+### Endpoint
 ````
 [POST] {{partner_service_url}}/security/v1/201904/oauth/verify 
 ````
@@ -11,7 +11,7 @@ to verify OTP, use the token obtained from the previous ``partner token`` respon
 
 ![verifyotp_getplus](img/verifyotp.png)
 
-## Test
+### Test
 and also, select ``test`` then add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
@@ -35,7 +35,7 @@ if (jsonData.Data.OTP) {
 }
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to verify OTP.
 ````
 {
@@ -47,12 +47,12 @@ Use this ``json`` file with the format below to verify OTP.
 	"OTP": "817270"
 }
 ````
-## GET Method
+### GET Method
 For *GET*  method, add this in ``params`` 
 
 ![verify_test_getplus](img/getverifyotp.png)
 
-## Result POST Method 
+### Result POST Method 
 ````
 {
     "Data": {
@@ -64,7 +64,7 @@ For *GET*  method, add this in ``params``
     "ErrorDescription": null
 }
 ````
-## Result GET Method 
+### Result GET Method 
 ````
 {
     "ErrorCode": 0,
@@ -77,7 +77,7 @@ For *GET*  method, add this in ``params``
     }
 }
 ````
-## Error Condition
+### Error Condition
 If the otp expired.
 ````
 {

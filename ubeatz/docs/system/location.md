@@ -1,6 +1,6 @@
 ## Location
 
-Endpoint
+### Endpoint
 ````
 [POST] url/location/location/
 ````
@@ -8,7 +8,7 @@ Endpoint
 [GET] url/location/location/?open=1 
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert location.
 ````
 {
@@ -19,10 +19,10 @@ Use this ``json`` file with the format below to insert location.
 }
 ````
 
-## GET Method
+### GET Method
 Use *open* as ``params`` to get location.
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "message": "successfully",
@@ -40,7 +40,7 @@ Use *open* as ``params`` to get location.
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",

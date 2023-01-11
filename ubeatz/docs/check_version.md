@@ -1,12 +1,12 @@
 ## Version
-Endpoint
+### Endpoint
 ````
 [GET] https://api-ubeatz.my.id/user/version/ 
 ````
 
 This is the latest version of the ubeatz app
 
-## Result
+### Result
 ````
 {
     "message": "successfully",

@@ -1,6 +1,6 @@
 ## Tools
 
-Endpoint
+### Endpoint
 ````
 [POST] url/tools/devices/
 ````
@@ -11,7 +11,7 @@ Endpoint
 [PUT] url/tools/devices/?code=ALS
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert tools.
 ````
 {
@@ -24,7 +24,7 @@ Use this ``json`` file with the format below to insert tools.
 }
 ````
 
-## PUT Method
+### PUT Method
 For *PUT* method, use *code* as ``params``.
 
 ![paramsputmethodtools](paramsputtools.png)
@@ -40,7 +40,7 @@ and also, add this ``json`` file with the format below to update tools.
 }
 ```` 
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "message": "successfully",
@@ -93,7 +93,7 @@ and also, add this ``json`` file with the format below to update tools.
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",
@@ -186,7 +186,7 @@ and also, add this ``json`` file with the format below to update tools.
 }
 ````
 
-## Result PUT Method
+### Result PUT Method
 ````
 {
     "message": "successfully",
@@ -236,7 +236,7 @@ and also, add this ``json`` file with the format below to update tools.
 }
 ````
 
-## Error Condition
+### Error Condition
 If use the same code.
 ````
 {

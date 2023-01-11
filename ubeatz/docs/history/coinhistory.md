@@ -1,14 +1,14 @@
 ## Coin History 
 
-Endpoint
+### Endpoint
 ````
 [GET] url/history/coin/?id=2 
 ````
 
-## GET Method
+### GET Method
 For *GET* method, use *id* as ``params`` to get coin history.
 
-## Result
+### Result
 ````
 {
     "message": "successfully",

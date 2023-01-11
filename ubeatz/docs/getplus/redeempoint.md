@@ -1,6 +1,6 @@
 ## Point Redeem
 
-Endpoint
+### Endpoint
 ````
 [POST] https://partners-dev.gpiapis.com/partner/v1/201904/members/pointredeem
 ````
@@ -11,7 +11,7 @@ to access point redeem, use variables ``{{partner_access_token}}`` or you can us
 
 ![redeem_point](img/tokenredeempoint.png)
 
-## Test
+### Test
 and also, select ``test`` and add this code.
 
 ![testredeempoint](img/testredeempoint.png)
@@ -35,7 +35,7 @@ if (jsonData.Data.TransactionValue) {
 }
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert point redeem.
 ````
 {
@@ -48,12 +48,12 @@ Use this ``json`` file with the format below to insert point redeem.
     "TerminalID": "10001"
 }
 ````
-## GET Method
+### GET Method
 For *GET* method, add this in ``params``.
 
 ![getredeempoint](img/getredeempoint.png)
 
-## Result
+### Result
 ````
 {
     "ErrorCode": 0,
@@ -65,7 +65,7 @@ For *GET* method, add this in ``params``.
     }
 }
 ````
-## Error Condition
+### Error Condition
 If send same TransactionID 2 times.
 ````
 {

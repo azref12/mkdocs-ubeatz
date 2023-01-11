@@ -1,6 +1,6 @@
 ## Account Activation
 
-Endpoint
+### Endpoint
 ````
 [GET] url/user/getactivation/?user=anonim12
 ````
@@ -8,10 +8,10 @@ Endpoint
 [PUT] url/user/activation/ 
 ````
 
-## GET Method 
+### GET Method 
 For *GET* method, use *user* as ``params``.
 
-## PUT Method
+### PUT Method
 For *PUT* method, use this ``json`` file with the format below to account activation.
 ````
 {
@@ -21,7 +21,7 @@ For *PUT* method, use this ``json`` file with the format below to account activa
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",
@@ -47,7 +47,7 @@ For *PUT* method, use this ``json`` file with the format below to account activa
     }
 }
 ````
-## Result PUT Method
+### Result PUT Method
 ````
 {
     "message": "successfully",

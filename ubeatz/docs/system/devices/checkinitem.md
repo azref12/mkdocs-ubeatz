@@ -1,11 +1,11 @@
 ## Devices > Checkin Item
 
-Endpoint
+### Endpoint
 ````
 [PUT] url/devices/booth-devices-checkin/?namadevices=73d7f26052f2c1a0
 ````
 
-## PUT Method
+### PUT Method
 For *PUT* method, use *namadevices* as ``params``.
 
 ![put_checkinitem](paramsputcheckinitem.png)
@@ -20,7 +20,7 @@ and also, add this ``json`` file with the format below to update checkin item.
 }
 ```` 
 
-## Result PUT Method
+### Result PUT Method
 ````
 {
     "message": "successfully",
@@ -51,12 +51,12 @@ and also, add this ``json`` file with the format below to update checkin item.
 
 ## Devices > Checkin Item Code
 
-Endpoint
+### Endpoint
 ````
 [PUT] url/devices/booth-devices-checkin-code/?code=3832
 ````
 
-## PUT Method
+### PUT Method
 For *PUT* method, use *code* as ``params``.
 
 ![put_checkinitemcode](paramsputcheckinitemcode.png)
@@ -71,7 +71,7 @@ and also, add this ``json`` file with the format below to update checkin item co
 }
 ```` 
 
-## Result PUT Method
+### Result PUT Method
 ````
 {
     "message": "successfully",

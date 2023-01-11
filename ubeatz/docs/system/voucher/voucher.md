@@ -1,6 +1,6 @@
 ## Voucher
 
-Endpoint
+### Endpoint
 ````
 [POST] url/voucher/voucher_list/
 ````
@@ -8,7 +8,7 @@ Endpoint
 [GET] url/voucher/voucher_list/
 ````
 
-## POST Method
+### POST Method
 Use this ``json`` file with the format below to insert voucher.
 ````
 {
@@ -25,7 +25,7 @@ Use this ``json`` file with the format below to insert voucher.
 }
 ````
 
-## Result POST Method
+### Result POST Method
 ````
 {
     "message": "successfully",
@@ -49,7 +49,7 @@ Use this ``json`` file with the format below to insert voucher.
 }
 ````
 
-## Result GET Method
+### Result GET Method
 ````
 {
     "message": "successfully",
