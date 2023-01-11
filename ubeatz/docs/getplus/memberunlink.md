@@ -67,7 +67,7 @@ For *GET* method, add this in ``params``.
     }
 }
 ````
-## Result GET Method
+### Result GET Method
 If unlink member success
 ````
 {
@@ -75,7 +75,7 @@ If unlink member success
     "ErrorDescription": ""
 }
 ````
-## Error Condition
+### Error Condition
 If send link 2 times.
 ````
 {

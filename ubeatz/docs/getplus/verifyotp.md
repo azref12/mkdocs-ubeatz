@@ -48,7 +48,7 @@ Use this ``json`` file with the format below to verify OTP.
 }
 ````
 ### GET Method
-For *GET*  method, add this in ``params`` 
+For *GET*  method, add this in ``params``.
 
 ![verify_test_getplus](img/getverifyotp.png)
 

@@ -12,7 +12,7 @@
 For *GET* method, use *user* as ``params``.
 
 ### PUT Method
-For *PUT* method, use this ``json`` file with the format below to account activation.
+For *PUT* method, use this ``json`` file with the format below to activation account.
 ````
 {
     "username": "anonim12",

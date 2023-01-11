@@ -2,33 +2,7 @@
 
 ### Endpoint
 ````
-[POST] url/master_voucher/buyvouchermaster/
-````
-````
 [GET] url/master_voucher/buyvouchermaster/
-````
-
-### POST Method
-Use this ``json`` file with the format below to insert buy voucher master.
-````
-{
-    "namavoucher" : "Voucher F&B 20.000", 
-    "keterangan" : "S&K. minimum pembelanjaan 50ribu dan wajib purchase durasi waktu minimal 30 menit",
-    "image" : "https://i.pinimg.com/564x/55/0c/7f/550c7f5e5201687fef9c5a4ccc3730e7.jpg", 
-    "harga_point" : 25000, 
-    "harga_rupiah" : 25000,
-    "expired" : "",
-    "expirederdem" : 7,
-    "quota" : "200",
-    "merchant" : 2,
-    "status" : 2,
-    "kode_voucher" : "UBEATZXI12"
-}
-````
-
-### Result POST Method
-````
-
 ````
 
 ### Result GET Method
