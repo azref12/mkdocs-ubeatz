@@ -11,7 +11,7 @@ Use this ``json`` file with the format below to redeem voucher.
 {
     "userid" : 2,
     "idvoucher" : 2,
-    "kodevoucher" : "QWERTY12",
+    "kodevoucher" : "ASDFG12",
     "point" : 10,
     "coin" : 10
 }

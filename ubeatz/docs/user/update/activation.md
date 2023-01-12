@@ -1,4 +1,4 @@
-## Account Activation
+## Activation Account 
 
 ### Endpoint
 ````

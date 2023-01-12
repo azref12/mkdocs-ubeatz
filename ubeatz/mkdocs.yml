@@ -10,6 +10,9 @@ theme :
     # logo : assets/logo.png
     # name: mkdocs
     # extra_css: [extra.css]
+markdown_extensions:
+    - tables
+
 
 plugins : 
     - search

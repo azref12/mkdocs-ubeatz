@@ -12,7 +12,7 @@ to verify OTP, use the token obtained from the previous ``partner token`` respon
 ![verifyotp_getplus](img/verifyotp.png)
 
 ### Test
-and also, select ``test`` then add this code.
+and also, select ``test`` and  add this code.
 
 ![verify_test_getplus](img/testverifyotp.png)
 
