@@ -21,7 +21,7 @@ for *POST* method, add this in ``params``.
     "results": {
         "id_up": 1,
         "id": 2,
-        "profile": "http://192.168.18.9:8000/user/upload/media/profile/user.png"
+        "profile": "http://(confidential data)/user/upload/media/profile/user.png"
     }
 }
 ````

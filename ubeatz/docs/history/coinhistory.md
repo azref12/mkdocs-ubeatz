@@ -16,7 +16,7 @@ For *GET* method, use *id* as ``params`` to get coin history.
         "coin": [
             {
                 "id": 1,
-                "transaksi": "CI2212270001",
+                "transaksi": "(confidential data)",
                 "coin": 40,
                 "datehistory": "2022-12-27T07:10:58.683541",
                 "status": 0,
@@ -31,9 +31,9 @@ For *GET* method, use *id* as ``params`` to get coin history.
                 "reward": 0,
                 "point": 185,
                 "coin": 40,
-                "phone_number": "+6281234567892",
-                "pin": "9PEG5D",
-                "code": 4420,
+                "phone_number": "(confidential data)",
+                "pin": "(confidential data)",
+                "code": (confidential data),
                 "status": 0,
                 "count_referal": 0,
                 "idgetplus": "0",

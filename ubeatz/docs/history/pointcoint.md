@@ -16,7 +16,7 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
         "point": [
             {
                 "id": 1,
-                "transaksi": "PI2212260001",
+                "transaksi": "(confidential data)",
                 "point": 40,
                 "datehistory": "2022-12-26T12:36:29.494899",
                 "status": 0,
@@ -26,7 +26,7 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
             },
             {
                 "id": 2,
-                "transaksi": "PI2212260002",
+                "transaksi": "(confidential data)",
                 "point": 250,
                 "datehistory": "2022-12-26T12:39:57.273647",
                 "status": 0,
@@ -36,7 +36,7 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
             },
             {
                 "id": 4,
-                "transaksi": "PI2212260004",
+                "transaksi": "(confidential data)",
                 "point": 25,
                 "datehistory": "2022-12-26T12:42:53.218745",
                 "status": 0,
@@ -48,7 +48,7 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
         "coin": [
             {
                 "id": 1,
-                "transaksi": "CI2212260001",
+                "transaksi": "(confidential data)",
                 "coin": 40,
                 "datehistory": "2022-12-26T12:36:29.510899",
                 "status": 0,
@@ -63,9 +63,9 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
                 "reward": 0,
                 "point": 65,
                 "coin": 40,
-                "phone_number": "+6281234567891",
-                "pin": "JLN8WO",
-                "code": 3920,
+                "phone_number": "(confidential data)",
+                "pin": "(confidential data)",
+                "code": (confidential data),
                 "status": 1,
                 "count_referal": 0,
                 "idgetplus": "0",

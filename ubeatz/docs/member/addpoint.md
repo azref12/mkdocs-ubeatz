@@ -12,7 +12,7 @@ Before adding points, make sure you already have an account, ``username``  and `
 Use this ``json`` file with the format below to add point.
 ````
 {
-    "email" : "anonim12@gmail.com",
+    "email" : "(confidential data)",
     "userid" : 2,
     "value_point" : 60
 }
@@ -27,7 +27,7 @@ Use this ``json`` file with the format below to add point.
             {
                 "id_addpoint": 1,
                 "value_point": 60,
-                "email": "anonim12@gmail.com",
+                "email": "(confidential data)",
                 "userid": 2,
                 "created_at": "2022-12-28T08:09:22.057864"
             }

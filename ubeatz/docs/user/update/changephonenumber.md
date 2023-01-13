@@ -9,8 +9,8 @@
 For *PUT* method, use this ``json`` file with the format below to change phone number.
 ````
 {
-    "username": "anonim12",
-    "phone_number": "+6281234567892"
+    "username": "(confidential data)",
+    "phone_number": "(confidential data)"
 }
 ````
 ### Result

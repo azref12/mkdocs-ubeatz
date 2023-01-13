@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[GET] url/user/email/?email=anonim12@gmail.com 
+[GET] url/user/email/?email=(confidential data) 
 ````
 
 ### GET Method
@@ -16,18 +16,18 @@ Use *email*  as ``params`` for sign in by google.
     "count": 1,
     "results": {
         "status": 9,
-        "username": "anonim12",
+        "username": "(confidential data)",
         "id": 2,
-        "email": "anonim12@gmail.com",
+        "email": "(confidential data)",
         "details": [
             {
                 "id": 2,
                 "reward": 0,
                 "point": 65,
                 "coin": 40,
-                "phone_number": "+6281234567891",
-                "pin": "JLN8WO",
-                "code": 3920,
+                "phone_number": "(confidential data)",
+                "pin": "(confidential data)",
+                "code": (confidential data),
                 "status": 1,
                 "count_referal": 0,
                 "idgetplus": "0",

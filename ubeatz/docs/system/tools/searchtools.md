@@ -31,23 +31,23 @@ For *GET* method, use *code* as ``params``.
                 ],
                 "promo": [
                     {
-                        "path": "http://8.215.47.1/imgpromo/1.png"
+                        "path": "http://(confidential data)/imgpromo/1.png"
                     },
                     {
-                        "path": "http://8.215.47.1/imgpromo/2.png"
+                        "path": "http://(confidential data)/imgpromo/2.png"
                     },
                     {
-                        "path": "http://8.215.47.1/imgpromo/3.png"
+                        "path": "http://(confidential data)/imgpromo/3.png"
                     }
                 ],
                 "opening": [
                     {
-                        "path": "http://8.215.47.1/promo.mp4"
+                        "path": "http://(confidential data)/promo.mp4"
                     }
                 ],
                 "setting": [
                     {
-                        "urlserver_lagu": "http://8.215.47.1/booth/lagu/"
+                        "urlserver_lagu": "http://(confidential data)/booth/lagu/"
                     }
                 ],
                 "code": "ALS",

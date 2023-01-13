@@ -10,7 +10,7 @@ For *PUT* method, use this ``json`` file with the format below to change passwor
 ````
 {
     "id": "2",
-    "password": "12345678"
+    "password": "(confidential data)"
 }
 ````
 ### Result 

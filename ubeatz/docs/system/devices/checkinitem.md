@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[PUT] url/devices/booth-devices-checkin/?namadevices=73d7f26052f2c1a0
+[PUT] url/devices/booth-devices-checkin/?namadevices=(confidential data)
 ````
 
 ### PUT Method
@@ -30,18 +30,18 @@ and also, add this ``json`` file with the format below to update checkin item.
         "devices": [
             {
                 "iddevices": 3,
-                "namadevices": "73d7f26052f2c1a0",
-                "nama": "73d7f26052f2c1b0",
+                "namadevices": "(confidential data)",
+                "nama": "(confidential data)",
                 "status": 1,
                 "players": 1,
-                "codeconnect": "3832",
+                "codeconnect": "(confidential data)",
                 "jam": "2023-01-06T04:18:57.920774",
                 "userid": null,
                 "durasi": 3,
                 "addtime": 1,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
-                "ipaddress": "192.168.1.26",
+                "ipaddress": "(confidential data)",
                 "user": "2"
             }
         ]
@@ -53,7 +53,7 @@ and also, add this ``json`` file with the format below to update checkin item.
 
 ### Endpoint
 ````
-[PUT] url/devices/booth-devices-checkin-code/?code=3832
+[PUT] url/devices/booth-devices-checkin-code/?code=(confidential data)
 ````
 
 ### PUT Method
@@ -81,18 +81,18 @@ and also, add this ``json`` file with the format below to update checkin item co
         "devices": [
             {
                 "iddevices": 3,
-                "namadevices": "73d7f26052f2c1a0",
+                "namadevices": "(confidential data)",
                 "nama": "73d7f26052f2c1b0",
                 "status": 1,
                 "players": 1,
-                "codeconnect": "3832",
+                "codeconnect": "(confidential data)",
                 "jam": "2023-01-06T05:19:18.052560",
                 "userid": 2,
                 "durasi": 3,
                 "addtime": 1,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
-                "ipaddress": "192.168.1.26",
+                "ipaddress": "(confidential data)",
                 "user": "2"
             }
         ]

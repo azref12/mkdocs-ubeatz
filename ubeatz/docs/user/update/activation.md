@@ -15,9 +15,9 @@ For *GET* method, use *user* as ``params``.
 For *PUT* method, use this ``json`` file with the format below to activation account.
 ````
 {
-    "username": "anonim12",
-    "codeuser": "3920",
-    "phone_number": "+6281234567891"
+    "username": "(confidential data)",
+    "codeuser": "(confidential data)",
+    "phone_number": "(confidential data)"
 }
 ````
 
@@ -31,16 +31,16 @@ For *PUT* method, use this ``json`` file with the format below to activation acc
         "master": [
             {
                 "id": 2,
-                "phone_number": "+6281234567891",
-                "code": 4420,
+                "phone_number": "(confidential data)",
+                "code": (confidential data),
                 "status": 0
             }
         ],
         "detail": [
             {
                 "id": 2,
-                "username": "anonim12",
-                "email": "anonim12@gmail.com",
+                "username": "(confidential data)",
+                "email": "(confidential data)",
                 "is_active": true
             }
         ]
@@ -60,9 +60,9 @@ For *PUT* method, use this ``json`` file with the format below to activation acc
                 "reward": 0,
                 "point": 0,
                 "coin": 0,
-                "phone_number": "+6281234567891",
-                "pin": "JLN8WO",
-                "code": 3920,
+                "phone_number": "(confidential data)",
+                "pin": "(confidential data)",
+                "code": (confidential data),
                 "status": 1,
                 "count_referal": 0,
                 "idgetplus": "0",

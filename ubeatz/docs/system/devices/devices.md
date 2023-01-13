@@ -8,22 +8,22 @@
 [GET] url/devices/booth-devices/ 
 ````
 ````
-[PUT] url/devices/booth-devices/?namadevices=73d7f26052f2c1a0
+[PUT] url/devices/booth-devices/?namadevices=(confidential data)
 ````
 
 ### POST Method
 Use this ``json`` file with the format below to insert devices.
 ````
 {
-    "namadevices" : "73d7f26052f2c1a0",
+    "namadevices" : "(confidential data)",
     "status" : 1,
     "players" : 1,
     "durasi" : 4,
     "addtime" : 2,
-    "codeconnect" : "3832",
+    "codeconnect" : "(confidential data)",
     "codeoutlet" : "UBT",
-    "namabooth" : "73d7f26052f2c1a0",
-    "ipadd" : "192.168.1.26"
+    "namabooth" : "(confidential data)",
+    "ipadd" : "(confidential data)"
 }
 ````
 
@@ -35,9 +35,9 @@ For *PUT* method, use *namadevices* as ``params``.
 and also, add this ``json`` file with the format below to update devices.
 ````
 {
-    "codeconnect" : 3832,
+    "codeconnect" : (confidential data),
     "code" : "UBT",
-    "namabooth" : "73d7f26052f2c1b0"
+    "namabooth" : "(confidential data)"
 }
 ```` 
 
@@ -51,18 +51,18 @@ and also, add this ``json`` file with the format below to update devices.
         "devices": [
             {
                 "iddevices": 3,
-                "namadevices": "73d7f26052f2c1a0",
-                "nama": "73d7f26052f2c1a0",
+                "namadevices": "(confidential data)",
+                "nama": "(confidential data)",
                 "status": 1,
                 "players": 1,
-                "codeconnect": "3832",
+                "codeconnect": "(confidential data)",
                 "jam": null,
                 "userid": null,
                 "durasi": 4,
                 "addtime": 2,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
-                "ipaddress": "192.168.1.26",
+                "ipaddress": "(confidential data)",
                 "user": null
             }
         ],
@@ -82,26 +82,26 @@ and also, add this ``json`` file with the format below to update devices.
                 ],
                 "promo": [
                     {
-                        "path": "http://8.215.47.1/imgpromo/1.png"
+                        "path": "http://(confidential data)/imgpromo/1.png"
                     },
                     {
-                        "path": "http://8.215.47.1/imgpromo/2.png"
+                        "path": "http://(confidential data)/imgpromo/2.png"
                     },
                     {
-                        "path": "http://8.215.47.1/imgpromo/3.png"
+                        "path": "http://(confidential data)/imgpromo/3.png"
                     },
                     {
-                        "path": "http://8.215.47.1/imgpromo/4.png"
+                        "path": "http://(confidential data)/imgpromo/4.png"
                     }
                 ],
                 "opening": [
                     {
-                        "path": "http://8.215.47.1/promo.mp4"
+                        "path": "http://(confidential data)/promo.mp4"
                     }
                 ],
                 "setting": [
                     {
-                        "urlserver_lagu": "http://10.0.1.200/data/"
+                        "urlserver_lagu": "http://(confidential data)/data/"
                     }
                 ],
                 "code": "UBT",
@@ -122,18 +122,18 @@ and also, add this ``json`` file with the format below to update devices.
         "devices": [
             {
                 "iddevices": 3,
-                "namadevices": "73d7f26052f2c1a0",
-                "nama": "73d7f26052f2c1a0",
+                "namadevices": "(confidential data)",
+                "nama": "(confidential data)",
                 "status": 1,
                 "players": 1,
-                "codeconnect": "3832",
+                "codeconnect": "(confidential data)",
                 "jam": null,
                 "userid": null,
                 "durasi": 4,
                 "addtime": 2,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
-                "ipaddress": "192.168.1.26",
+                "ipaddress": "(confidential data)",
                 "user": null
             }
         ]
@@ -151,18 +151,18 @@ and also, add this ``json`` file with the format below to update devices.
         "devices": [
             {
                 "iddevices": 3,
-                "namadevices": "73d7f26052f2c1a0",
-                "nama": "73d7f26052f2c1b0",
+                "namadevices": "(confidential data)",
+                "nama": "(confidential data)",
                 "status": 1,
                 "players": 1,
-                "codeconnect": "3832",
+                "codeconnect": "(confidential data)",
                 "jam": null,
                 "userid": null,
                 "durasi": 4,
                 "addtime": 2,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
-                "ipaddress": "192.168.1.26",
+                "ipaddress": "(confidential data)",
                 "user": null
             }
         ]

@@ -11,13 +11,13 @@ Use this ``json`` file with the format below to sign up.
 {
     "first_name": "-",
     "last_name": "-",
-    "username": "anonim12",
-    "email": "anonim12@gmail.com",
-    "phone_number": "+6281234567891",
-    "password": "123123123",
-    "password2": "123123123",
+    "username": "(confidential data)",
+    "email": "(confidential data)",
+    "phone_number": "(confidential data)",
+    "password": "(confidential data)",
+    "password2": "(confidential data)",
     "pin": "",
-    "referral_code" : "zref"
+    "referral_code" : "(confidential data)"
 }
 ````
 ### Result
@@ -33,9 +33,9 @@ Use this ``json`` file with the format below to sign up.
                 "reward": 0,
                 "point": 0,
                 "coin": 0,
-                "phone_number": "+6281234567891",
-                "pin": "JLN8WO",
-                "code": 3920,
+                "phone_number": "(confidential data)",
+                "pin": "(confidential data)",
+                "code": (confidential data),
                 "status": 0,
                 "count_referal": 0,
                 "idgetplus": "0",
