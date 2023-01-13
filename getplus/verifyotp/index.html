@@ -1211,7 +1211,7 @@
 <h3 id="endpoint">Endpoint</h3>
 <pre><code>[POST] {{partner_service_url}}/security/v1/201904/oauth/verify 
 </code></pre>
-<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;GetPlusID=6094450002009045855
+<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=(confidential data)&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;GetPlusID=(confidential data)
 </code></pre>
 <p>to verify OTP, use the token obtained from the previous <code>partner token</code> response as <code>basic authentication</code>, on postman select <code>authorization</code> next to <code>params</code>, then select <code>Bearer Token</code>, then paste token.</p>
 <p><img alt="verifyotp_getplus" src="../img/verifyotp.png" /></p>
@@ -1238,23 +1238,24 @@ if (jsonData.Data.OTP) {
 <h3 id="post-method">POST Method</h3>
 <p>Use this <code>json</code> file with the format below to verify OTP.</p>
 <pre><code>{
-    &quot;PartnerCustomerAccountID&quot;: &quot;fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&quot;,
-    &quot;PartnerID&quot;: &quot;f6348010-c54c-43d5-9f5e-be4c2562248d&quot;,
-    &quot;GetPlusID&quot;: &quot;6094450002009045855&quot;,
+    &quot;PartnerCustomerAccountID&quot;: &quot;(confidential data)&quot;,
+    &quot;PartnerID&quot;: &quot;(confidential data)&quot;,
+    &quot;GetPlusID&quot;: &quot;(confidential data)&quot;,
     &quot;Signature&quot;: &quot;EROGkFQkA0kswYIsIZstEbirg8MxTStoY0ZwOvBpY4I=&quot;,
     &quot;Timestamp&quot;: &quot;1662101936&quot;,
     &quot;OTP&quot;: &quot;817270&quot;
 }
 </code></pre>
+<p>for <code>PartnerCustomerAccountID</code>,<code>PartnerID</code> and <code>GetplusID</code> is confidential data. So, use the previously obtained <code>PartnerCustomerAccountID</code>,<code>Partner ID</code> and <code>Getplus ID</code>.</p>
 <h3 id="get-method">GET Method</h3>
 <p>For <em>GET</em>  method, add this in <code>params</code>.</p>
-<p><img alt="verify_test_getplus" src="../img/getverifyotp.png" /></p>
+<p><img alt="verify_getplus" src="../img/getverifyotp.png" /></p>
 <h3 id="result-post-method">Result POST Method</h3>
 <pre><code>{
     &quot;Data&quot;: {
-        &quot;MemberApplicationID&quot;: &quot;C538482A-6514-4E64-BE2E-00E7238BFE8D&quot;,
+        &quot;MemberApplicationID&quot;: &quot;(confidential data)&quot;,
         &quot;JoinCode&quot;: 1,
-        &quot;MembershipNumber&quot;: &quot;6094450002009045855&quot;
+        &quot;MembershipNumber&quot;: &quot;(confidential data)&quot;
     },
     &quot;ErrorCode&quot;: 0,
     &quot;ErrorDescription&quot;: null
@@ -1267,8 +1268,8 @@ if (jsonData.Data.OTP) {
     &quot;Data&quot;: {
         &quot;Timestamp&quot;: 1664343761,
         &quot;Signature&quot;: &quot;gPEHkwifUdCyiYTIfsL0cj7Lx7dSeBCBd1SbQyVLhe4=&quot;,
-        &quot;PartnerID&quot;: &quot;f6348010-c54c-43d5-9f5e-be4c2562248d&quot;,
-        &quot;GetPlusID&quot;: &quot;6094450002009045855&quot;
+        &quot;PartnerID&quot;: &quot;(confidential data)&quot;,
+        &quot;GetPlusID&quot;: &quot;(confidential data)&quot;
     }
 }
 </code></pre>

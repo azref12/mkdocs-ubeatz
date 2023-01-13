@@ -1197,7 +1197,7 @@
 <h3 id="endpoint">Endpoint</h3>
 <pre><code>[POST] {{partner_service_url}}/partner/v1/201904/members/saletransaction
 </code></pre>
-<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&amp;GetPlusID=6094450002009045855&amp;TransactionValue=50000
+<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=(confidential data)&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;PartnerCustomerAccountID=(confidential data)&amp;GetPlusID=(confidential data)&amp;TransactionValue=50000
 </code></pre>
 <p>to access earn point / sale transaction, use variables <code>{{partner_access_token}}</code> or you can use the token obtained from the previous <code>partner token</code> response as <code>basic authentication</code>, on postman select <code>authorization</code> next to <code>params</code>, then select <code>Bearer Token</code>, then you choose one of the options above to be used as a token.</p>
 <p><img alt="earn_point" src="../img/tokenearnpoint.png" /></p>
@@ -1224,26 +1224,28 @@ if (jsonData.Data.TransactionValue) {
 <h3 id="post-method">POST Method</h3>
 <p>Use this <code>json</code> file with the format below to insert earn point.</p>
 <pre><code>{
-    &quot;PartnerID&quot;: &quot;f6348010-c54c-43d5-9f5e-be4c2562248d&quot;,
-    &quot;GetPlusID&quot;: &quot;6094450002009045855&quot;,
+    &quot;PartnerID&quot;: &quot;(confidential data)&quot;,
+    &quot;GetPlusID&quot;: &quot;(confidential data)&quot;,
     &quot;Signature&quot;: &quot;NgGMogyQeOxXgjW9E2giHFSivs13PphLVhB9m7CcUG8=&quot;,
     &quot;Timestamp&quot;: &quot;1661926366&quot;,
     &quot;TransactionValue&quot;: 100000,
-    &quot;TransactionID&quot;: &quot;GETPLUS/0221/002&quot;,
-    &quot;TerminalID&quot;: &quot;10001&quot;
+    &quot;TransactionID&quot;: &quot;GETPLUS/(confidential data)/(confidential data)&quot;,
+    &quot;TerminalID&quot;: &quot;(confidential data)&quot;
 }
 </code></pre>
+<p>for <code>PartnerID</code>,<code>GetplusID</code>,<code>TransactionID</code> and <code>TerminalID</code> is confidential data. So, use the previously obtained <code>PartnerID</code>,<code>GetplusID</code>,<code>TransactionID</code> and <code>TerminalID</code>.</p>
 <h3 id="get-method">GET Method</h3>
 <p>For <em>GET</em> method, add this in <code>params</code>.</p>
 <p><img alt="getmemberunlink" src="../img/getearnpoint.png" /></p>
+<p>for <code>PartnerID</code>,<code>GetplusID</code>, and <code>PartnerCustomerAccountID</code> is confidential data. So, use the previously obtained <code>PartnerID</code>,<code>GetplusID</code>, and <code>PartnerCustomerAccountID</code>.</p>
 <h3 id="result">Result</h3>
 <pre><code>{
     &quot;ErrorCode&quot;: 0,
     &quot;ErrorDescription&quot;: &quot;&quot;,
     &quot;Data&quot;: {
         &quot;LoyaltyPointsBalance&quot;: 767500,
-        &quot;TransactionID&quot;: &quot;GETPLUS/0221/061&quot;,
-        &quot;TransactionSet_RSN&quot;: &quot;b49d3c5f-1002-45e1-ac71-869fe4f6c977&quot;
+        &quot;TransactionID&quot;: &quot;GETPLUS/(confidential data)/(confidential data)&quot;,
+        &quot;TransactionSet_RSN&quot;: &quot;(confidential data)&quot;
     }
 }
 </code></pre>

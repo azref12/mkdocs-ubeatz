@@ -1211,7 +1211,7 @@
 <h3 id="endpoint">Endpoint</h3>
 <pre><code>[POST] {{partner_service_url}}/partner/v1/201904/members/unlink
 </code></pre>
-<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=f6348010-c54c-43d5-9f5e-be4c2562248d&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;PartnerCustomerAccountID=fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&amp;GetPlusID=6094450002009045855
+<pre><code>[GET] {{base_url}}/mobile/v1/202001/utils/auth/partner-signature?PartnerID=(confidential data)&amp;EncryptKey=55HCmiPaEkEEy20LWP8V9nGbvpkl6EY8USqDkaRRlrk=&amp;PartnerCustomerAccountID=(confidential data)&amp;GetPlusID=(confidential data)
 </code></pre>
 <p>to access unlink member, use the token obtained from the previous <code>partner token</code> response as <code>basic authentication</code>, on postman select <code>authorization</code> next to <code>params</code>, then select <code>Bearer Token</code>, then paste token.</p>
 <p><img alt="bearertoken_memberunlink" src="../img/token-memberunlink.png" /></p>
@@ -1241,9 +1241,9 @@ if (jsonData.Data.GetPlusID) {
 <h3 id="post-method">POST Method</h3>
 <p>Use this <code>json</code> file with the format below to insert unlink member.</p>
 <pre><code>{
-    &quot;PartnerCustomerAccountID&quot;: &quot;fcea30ca-0f2a-449a-8ee7-71fa0d1b45bc&quot;,
-    &quot;PartnerID&quot;: &quot;f6348010-c54c-43d5-9f5e-be4c2562248d&quot;,
-    &quot;GetPlusID&quot;: &quot;6094450002009045855&quot;,
+    &quot;PartnerCustomerAccountID&quot;: &quot;(confidential data)&quot;,
+    &quot;PartnerID&quot;: &quot;(confidential data)&quot;,
+    &quot;GetPlusID&quot;: &quot;(confidential data)&quot;,
     &quot;Signature&quot;: &quot;atAR2HIkfVCB+pU+T0QVewHMATCpdF+WgApEWJF/PH8=&quot;,
     &quot;Timestamp&quot;: &quot;1662111091&quot;
 }
@@ -1251,6 +1251,7 @@ if (jsonData.Data.GetPlusID) {
 <h3 id="get-method">GET Method</h3>
 <p>For <em>GET</em> method, add this in <code>params</code>.</p>
 <p><img alt="getmemberunlink" src="../img/getmemberunlink.png" /></p>
+<p>for <code>PartnerCustomerAccountID</code>,<code>PartnerID</code> and <code>GetplusID</code> is confidential data. So, use the previously obtained <code>PartnerCustomerAccountID</code>,<code>Partner ID</code> and <code>Getplus ID</code>.</p>
 <h3 id="result-post-method">Result POST Method</h3>
 <pre><code>{
     &quot;ErrorCode&quot;: 0,
@@ -1258,8 +1259,8 @@ if (jsonData.Data.GetPlusID) {
     &quot;Data&quot;: {
         &quot;Timestamp&quot;: 1664343761,
         &quot;Signature&quot;: &quot;gPEHkwifUdCyiYTIfsL0cj7Lx7dSeBCBd1SbQyVLhe4=&quot;,
-        &quot;PartnerID&quot;: &quot;f6348010-c54c-43d5-9f5e-be4c2562248d&quot;,
-        &quot;GetPlusID&quot;: &quot;6094450002009045855&quot;
+        &quot;PartnerID&quot;: &quot;(confidential data)&quot;,
+        &quot;GetPlusID&quot;: &quot;(confidential data)&quot;
     }
 }
 </code></pre>
