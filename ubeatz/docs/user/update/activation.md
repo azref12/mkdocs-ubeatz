@@ -30,7 +30,7 @@ For *PUT* method, use this ``json`` file with the format below to activation acc
     "results": {
         "master": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "phone_number": "(confidential data)",
                 "code": (confidential data),
                 "status": 0
@@ -38,7 +38,7 @@ For *PUT* method, use this ``json`` file with the format below to activation acc
         ],
         "detail": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "username": "(confidential data)",
                 "email": "(confidential data)",
                 "is_active": true
@@ -56,7 +56,7 @@ For *PUT* method, use this ``json`` file with the format below to activation acc
     "results": {
         "master": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 0,
                 "coin": 0,
