@@ -22,7 +22,7 @@ Use this ``json`` file with the format below to sign in.
     "username": "(confidential data)",
     "is_superuser": false,
     "is_staff": false,
-    "id": 2,
+    "id": (confidential data),
     "firstName": "-",
     "lastName": "-",
     "email": "(confidential data)",
@@ -30,7 +30,7 @@ Use this ``json`` file with the format below to sign in.
     "is_active": true,
     "details": [
         {
-            "id": 2,
+            "id": (confidential data),
             "reward": 0,
             "point": 0,
             "coin": 0,
@@ -44,8 +44,8 @@ Use this ``json`` file with the format below to sign in.
             "extradata": null,
             "iduser_id": [
                 {
-                    "id_up": 1,
-                    "id": 2,
+                    "id_up": (confidential data),
+                    "id": (confidential data),
                     "profile": "media/profile/user.png"
                 }
             ]

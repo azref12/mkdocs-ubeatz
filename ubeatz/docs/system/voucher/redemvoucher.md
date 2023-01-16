@@ -9,8 +9,8 @@
 Use this ``json`` file with the format below to redeem voucher.
 ````
 {
-    "userid" : 2,
-    "idvoucher" : 2,
+    "userid" : (confidential data),
+    "idvoucher" : (confidential data),
     "kodevoucher" : "(confidential data)",
     "point" : 10,
     "coin" : 10
@@ -25,7 +25,7 @@ Use this ``json`` file with the format below to redeem voucher.
     "results": {
         "voucher": [
             {
-                "id_voucher": 2,
+                "id_voucher": (confidential data),
                 "nama_voucher": "Free SInging 60 minutes",
                 "jenis": 0,
                 "kode_voucher": "(confidential data)",
@@ -40,7 +40,7 @@ Use this ``json`` file with the format below to redeem voucher.
         ],
         "user": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 225,
                 "coin": 80,

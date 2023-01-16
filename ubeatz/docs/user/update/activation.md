@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[GET] url/user/getactivation/?user=anonim12
+[GET] url/user/getactivation/?user=(confidential data)
 ````
 ````
 [PUT] url/user/activation/ 

@@ -9,7 +9,7 @@
 For *PUT* method, use this ``json`` file with the format below to change password.
 ````
 {
-    "id": "2",
+    "id": "(confidential data)",
     "password": "(confidential data)"
 }
 ````

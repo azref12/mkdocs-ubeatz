@@ -32,7 +32,7 @@ Use this ``json`` file with the format below to insert voucher.
     "results": {
         "master": [
             {
-                "id_voucher": 2,
+                "id_voucher": (confidential data),
                 "nama_voucher": "Free SInging 60 minutes",
                 "jenis": 0,
                 "kode_voucher": "(confidential data)",
@@ -55,7 +55,7 @@ Use this ``json`` file with the format below to insert voucher.
     "message": "successfully",
     "results": [
         {
-            "id_voucher": 2,
+            "id_voucher": (confidential data),
             "nama_voucher": "Free SInging 60 minutes",
             "jenis": 0,
             "kode_voucher": "(confidential data)",

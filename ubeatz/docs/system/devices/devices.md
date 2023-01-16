@@ -50,7 +50,7 @@ and also, add this ``json`` file with the format below to update devices.
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "(confidential data)",
                 "status": 1,
@@ -68,7 +68,7 @@ and also, add this ``json`` file with the format below to update devices.
         ],
         "tools": [
             {
-                "id": 1,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"
@@ -121,7 +121,7 @@ and also, add this ``json`` file with the format below to update devices.
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "(confidential data)",
                 "status": 1,
@@ -150,7 +150,7 @@ and also, add this ``json`` file with the format below to update devices.
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "(confidential data)",
                 "status": 1,

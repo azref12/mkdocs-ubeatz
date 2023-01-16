@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[GET] url/user/point-history-set/2 
+[GET] url/user/point-history-set/(confidential data) 
 ````
 ### Result
 ````

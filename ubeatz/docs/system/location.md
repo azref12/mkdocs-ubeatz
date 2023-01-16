@@ -46,7 +46,7 @@ Use *open* as ``params`` to get location.
     "message": "successfully",
     "results": [
         {
-            "id": 2,
+            "id": (confidential data),
             "place": "Pos Bloc Jakarta Lt.2 East Garden",
             "address": "Pos No.2, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10710",
             "link": "https://(confidential data)",

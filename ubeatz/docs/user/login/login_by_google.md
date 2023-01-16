@@ -17,11 +17,11 @@ Use *email*  as ``params`` for sign in by google.
     "results": {
         "status": 9,
         "username": "(confidential data)",
-        "id": 2,
+        "id": (confidential data),
         "email": "(confidential data)",
         "details": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 65,
                 "coin": 40,
@@ -35,8 +35,8 @@ Use *email*  as ``params`` for sign in by google.
                 "extradata": null,
                 "iduser_id": [
                     {
-                        "id_up": 1,
-                        "id": 2,
+                        "id_up": (confidential data),
+                        "id": (confidential data),
                         "profile": "media/profile/user.png"
                     }
                 ]

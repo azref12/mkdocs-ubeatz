@@ -13,7 +13,7 @@ Use this ``json`` file with the format below to add point.
 ````
 {
     "email" : "(confidential data)",
-    "userid" : 2,
+    "userid" : (confidential data),
     "value_point" : 60
 }
 ````
@@ -25,10 +25,10 @@ Use this ``json`` file with the format below to add point.
     "results": {
         "master": [
             {
-                "id_addpoint": 1,
+                "id_addpoint": (confidential data),
                 "value_point": 60,
                 "email": "(confidential data)",
-                "userid": 2,
+                "userid": (confidential data),
                 "created_at": "2022-12-28T08:09:22.057864"
             }
         ]

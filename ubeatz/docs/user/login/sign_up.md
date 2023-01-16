@@ -29,7 +29,7 @@ Use this ``json`` file with the format below to sign up.
     "results": {
         "master": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 0,
                 "coin": 0,

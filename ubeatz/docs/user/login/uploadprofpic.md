@@ -19,8 +19,8 @@ for *POST* method, add this in ``params``.
     "Status": true,
     "message": "Image upload successfully",
     "results": {
-        "id_up": 1,
-        "id": 2,
+        "id_up": (confidential data),
+        "id": (confidential data),
         "profile": "http://(confidential data)/user/upload/media/profile/user.png"
     }
 }
@@ -32,8 +32,8 @@ for *POST* method, add this in ``params``.
     "message": "Successfully",
     "results": [
         {
-            "id_up": 1,
-            "id": 2,
+            "id_up": (confidential data),
+            "id": (confidential data),
             "profile": "media/profile/user.png"
         }
     ]

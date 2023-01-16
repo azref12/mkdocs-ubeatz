@@ -49,7 +49,7 @@ and also, add this ``json`` file with the format below to update tools.
     "results": {
         "devices": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"
@@ -102,7 +102,7 @@ and also, add this ``json`` file with the format below to update tools.
     "results": {
         "Tools": [
             {
-                "id": 1,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"
@@ -135,14 +135,14 @@ and also, add this ``json`` file with the format below to update tools.
                 ],
                 "setting": [
                     {
-                        "urlserver_lagu": "http://10.0.1.200/data/"
+                        "urlserver_lagu": "http://(confidential data)/data/"
                     }
                 ],
                 "code": "UBT",
                 "keterangan": "Ubeatz"
             },
             {
-                "id": 2,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"
@@ -195,7 +195,7 @@ and also, add this ``json`` file with the format below to update tools.
     "results": {
         "devices": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"

@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[GET] url/history/point-coint/?id=2 
+[GET] url/history/point-coint/?id=(confidential data) 
 ````
 
 ### GET Method
@@ -15,51 +15,51 @@ For *GET* method, use *id* as ``params`` to get point-coin history.
     "results": {
         "point": [
             {
-                "id": 1,
+                "id": (confidential data),
                 "transaksi": "(confidential data)",
                 "point": 40,
                 "datehistory": "2022-12-26T12:36:29.494899",
                 "status": 0,
                 "statushistory": 1,
-                "iduser": 2,
+                "iduser": (confidential data),
                 "keterangan": "REDEM QWERTY12"
             },
             {
-                "id": 2,
+                "id": (confidential data),
                 "transaksi": "(confidential data)",
                 "point": 250,
                 "datehistory": "2022-12-26T12:39:57.273647",
                 "status": 0,
                 "statushistory": 1,
-                "iduser": 2,
+                "iduser": (confidential data),
                 "keterangan": "REDEEM FOR NEW ACCOUNT, POINT SEND TO GETPLUS"
             },
             {
-                "id": 4,
+                "id": (confidential data),
                 "transaksi": "(confidential data)",
                 "point": 25,
                 "datehistory": "2022-12-26T12:42:53.218745",
                 "status": 0,
                 "statushistory": 1,
-                "iduser": 2,
+                "iduser": (confidential data),
                 "keterangan": "POINT FROM FEEDBACK"
             }
         ],
         "coin": [
             {
-                "id": 1,
+                "id": (confidential data),
                 "transaksi": "(confidential data)",
                 "coin": 40,
                 "datehistory": "2022-12-26T12:36:29.510899",
                 "status": 0,
                 "statushistory": 1,
-                "iduser": 2,
+                "iduser": (confidential data),
                 "keterangan": "REDEM QWERTY12"
             }
         ],
         "details": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 65,
                 "coin": 40,

@@ -17,7 +17,7 @@ For *GET* method, use *code* as ``params``.
     "results": {
         "devices": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "runtext": [
                     {
                         "text": "Selamat Datang Di Karaoke"

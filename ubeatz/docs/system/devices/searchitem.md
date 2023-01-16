@@ -17,7 +17,7 @@ For *GET* method, use *namadevices* as ``params``.
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "(confidential data)",
                 "status": 1,

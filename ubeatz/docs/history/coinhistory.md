@@ -2,7 +2,7 @@
 
 ### Endpoint
 ````
-[GET] url/history/coin/?id=2 
+[GET] url/history/coin/?id=(confidential data)
 ````
 
 ### GET Method
@@ -15,19 +15,19 @@ For *GET* method, use *id* as ``params`` to get coin history.
     "results": {
         "coin": [
             {
-                "id": 1,
+                "id": (confidential data),
                 "transaksi": "(confidential data)",
                 "coin": 40,
                 "datehistory": "2022-12-27T07:10:58.683541",
                 "status": 0,
                 "statushistory": 1,
-                "iduser": 2,
+                "iduser": (confidential data),
                 "keterangan": "REDEM QWERTY12"
             }
         ],
         "details": [
             {
-                "id": 2,
+                "id": (confidential data),
                 "reward": 0,
                 "point": 185,
                 "coin": 40,

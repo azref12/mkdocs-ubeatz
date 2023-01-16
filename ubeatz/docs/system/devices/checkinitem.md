@@ -14,7 +14,7 @@ and also, add this ``json`` file with the format below to update checkin item.
 ````
 {
     "status" : 1,
-    "user" : 2,
+    "user" : (confidential data),
     "durasi" : 3,
     "addtime" : 1
 }
@@ -29,7 +29,7 @@ and also, add this ``json`` file with the format below to update checkin item.
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "(confidential data)",
                 "status": 1,
@@ -42,7 +42,7 @@ and also, add this ``json`` file with the format below to update checkin item.
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
                 "ipaddress": "(confidential data)",
-                "user": "2"
+                "user": "(confidential data)"
             }
         ]
     }
@@ -65,7 +65,7 @@ and also, add this ``json`` file with the format below to update checkin item co
 ````
 {
     "status" : 1,
-    "iduser" : 2,
+    "iduser" : (confidential data),
     "durasi" : 3,
     "addtime" : 1
 }
@@ -80,20 +80,20 @@ and also, add this ``json`` file with the format below to update checkin item co
     "results": {
         "devices": [
             {
-                "iddevices": 3,
+                "iddevices": (confidential data),
                 "namadevices": "(confidential data)",
                 "nama": "73d7f26052f2c1b0",
                 "status": 1,
                 "players": 1,
                 "codeconnect": "(confidential data)",
                 "jam": "2023-01-06T05:19:18.052560",
-                "userid": 2,
+                "userid": (confidential data),
                 "durasi": 3,
                 "addtime": 1,
                 "codeoutlet": "UBT",
                 "idtransaksi": null,
                 "ipaddress": "(confidential data)",
-                "user": "2"
+                "user": "(confidential data)"
             }
         ]
     }
