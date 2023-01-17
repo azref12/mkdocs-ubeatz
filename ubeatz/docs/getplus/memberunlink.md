@@ -49,12 +49,14 @@ Use this ``json`` file with the format below to insert unlink member.
     "Timestamp": "1662111091"
 }
 ````
+for `PartnerCustomerAccountID`,`PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerCustomerAccountID`,`PartnerID` and `GetplusID`.
+
 ### GET Method
 For *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getmemberunlink.png)
 
-for `PartnerCustomerAccountID`,`PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerCustomerAccountID`,`Partner ID` and `Getplus ID`.
+for `PartnerID`, `PartnerCustomerAccountID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerID`, `PartnerCustomerAccountID` and `GetplusID`.
 
 ### Result POST Method
 ````

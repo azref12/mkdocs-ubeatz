@@ -47,12 +47,14 @@ Use this ``json`` file with the format below to verify OTP.
 	"OTP": "817270"
 }
 ````
-for `PartnerCustomerAccountID`,`PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerCustomerAccountID`,`Partner ID` and `Getplus ID`.
+for `PartnerCustomerAccountID`,`PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerCustomerAccountID`,`PartnerID` and `GetplusID`.
 
 ### GET Method
 For *GET*  method, add this in ``params``.
 
 ![verify_getplus](img/getverifyotp.png)
+
+for `PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerID` and `GetplusID`.
 
 ### Result POST Method 
 ````

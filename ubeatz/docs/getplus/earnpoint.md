@@ -55,7 +55,7 @@ For *GET* method, add this in ``params``.
 
 ![getmemberunlink](img/getearnpoint.png)
 
-for `PartnerID`,`GetplusID`, and `PartnerCustomerAccountID` is confidential data. So, use the previously obtained `PartnerID`,`GetplusID`, and `PartnerCustomerAccountID`.
+for `PartnerID`,`PartnerCustomerAccountID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerID`,`PartnerCustomerAccountID` and `GetplusID`.
 
 ### Result 
 ````

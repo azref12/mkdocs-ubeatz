@@ -42,14 +42,14 @@ Use this ``json`` file with the format below to insert request otp.
     "Timestamp": "1662092274"
 }
 ````
-for `PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `Partner ID` and `Getplus ID`. 
+for `PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerID` and `GetplusID`. 
 
 ### GET Method
 For *GET*  method, add this in ``params``.
 
 ![requestotp_getplus](img/getrequestotp.png)
 
-for `PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `Partner ID` and `Getplus ID`.
+for `PartnerID` and `GetplusID` is confidential data. So, use the previously obtained `PartnerID` and `GetplusID`.
 
 ### Result
 ````
