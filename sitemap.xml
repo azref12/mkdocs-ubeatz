@@ -2,167 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://api.ubeatz.co.id/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/check_version/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/variablesettings/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/earnpoint/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/memberprofile/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/memberunlink/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/partnertoken/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/redeempoint/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/requestotp/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/getplus/verifyotp/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/history/coinhistory/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/history/pointcoint/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/history/pointhistory/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/member/addpoint/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/member/feedback/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/location/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/voucherbyapiubeatz/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/devices/checkinitem/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/devices/devices/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/devices/searchitem/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/tools/searchtools/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/tools/tools/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/voucher/redemvoucher/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/voucher/voucher/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/voucher/mastervoucher/buyvouchermaster/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/system/voucher/mastervoucher/location/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/login/login_by_google/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/login/sign_in/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/login/sign_up/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/login/uploadprofpic/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/update/activation/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/update/changepass/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://api.ubeatz.co.id/user/update/changephonenumber/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
